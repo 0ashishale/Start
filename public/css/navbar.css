@@ -15,7 +15,7 @@
   background-position: center;
   margin: 0;
   padding: 0;
-  
+  background-attachment: fixed ;
 }
 
 .nav-bar{
@@ -91,6 +91,7 @@
   
   
   
+  
 }
 
 
@@ -105,21 +106,26 @@
 
 .book-table{
   background-color: rgb(28, 47, 63);
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 0;
 }
 
 .booktable-row{
-  margin: 10px 30px 30px 53px;
-  display: inline-block;
+  padding-top: 40px;
+  display: inline-table;
   text-align: center;
-  padding-top: 30px;
-  justify-content: center;
-  position: relative;
+  margin: 3%;
   
+  
+
 }
 
 .booktable-row img {
   width: 350px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .booktable-row h1{
@@ -133,11 +139,59 @@
   font-size: 13px;
   font-weight: 600;
   line-height: 20px;
-  padding: 10px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 
+/* -----------SERVICES SECTION-------------- */
+
+.services {
+  
+  width: 100%;
+  padding-top: 100px;
+  background-size: cover;
+  background-color: rgb(28, 47, 63);
+  text-align: center;
+}
+
+#h1{
+  
+  font-size: 30px;
+  text-decoration-thickness: 5px;
+  font-weight: 600px;
+
+
+  
+}
+
+.services-row {
+margin: 3%;
+ display: inline-block;
+ border: solid white;
+ border-radius: 10px ;
+ padding: 2%;
+ 
+    
+}
+
+.services-row a{
+  text-decoration-thickness: 5px;
+  margin: 2%;
+}
+
+
+/* ---------------Gallery Section----------- */
+
+.gallery {
+
+  flex-grow: 3;
+}
+
+.gallery img{
+  height: 200px;
+  width: 250px ;
+}
 
 
 
