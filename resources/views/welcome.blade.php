@@ -11,32 +11,37 @@
   </head>
 <body>
   <!-- -----------Header Section------------ -->
-   <section class="header">
+
+  <section class="header">
       <div class="nav-bar">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="/about">About US</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Reservation</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/events">Events</a></li>
+          <li><a href="/reservation">Reservation</a></li>
+          <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
+ </section>
+
+ <section >
     <div class="text-box">
         <p>ENJOY THE MUSIC</p>
         <h1>MAKE YOUR NIGHT</h1>
         <a href="#" class="hero-btn" >More Info</a>
-      
+    </div>
     </section>
 
-
+  
+  
     <!-- ---------------Content Section--------------->
 
 
     <section class="book-table"> 
       
-    <b><a href="#" class="event" class="heading">EVENTS</a> </b><br/>
+    <b><a href="#"  class="heading">EVENTS</a> </b><br/>
       <div class="booktable-row">
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
         <h1>NON STOP PARTY</h1>
@@ -126,7 +131,23 @@
 
       </section>
 
+      
 
+<div id="googleMap" style="width:100%;height:400px;" ></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>    
+
+<!-- ------------------Footer-------------- -->
   <section class="footer">
     <div class="info-bar">
     <p id="address">Phoolbari-11 <br/> Kaski, Nepal</p>
@@ -139,10 +160,10 @@
     <i class="fa-brands fa-instagram"></i>
           
 
-   <p id="bholenath">© 2017 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH.
+   <p id="bholenath">© 2022 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH.
 
-</p>
-  </section>
+    </p>
+    </section>
 
 </body>
 </html>
