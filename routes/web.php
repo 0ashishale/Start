@@ -17,6 +17,14 @@ use App\Http\Controllers\RouteController;
 
 
 Route::get('/', [RouteController::class, 'home']);
+Route::get('/master', function(){
+    return view('layouts.master');
+});
+Route::get('/about_us', function(){
+    return view('about');
+});
+
+
 // Route::get('/about', [RouteController::class, 'about']);
 // Route::get('/services', [RouteController::class, 'services']);
 // Route::get('/events', [RouteController::class, 'events']);
