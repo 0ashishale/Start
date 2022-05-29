@@ -21,7 +21,7 @@
       <div class="nav-bar">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About US</a></li>
+          <li><a href="{{url('/about_us')}}">About US</a></li>
           <li><a href="/services">Services</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/events">Events</a></li>
