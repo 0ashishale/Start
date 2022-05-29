@@ -1,15 +1,1 @@
-@include('layouts.header')
-
-
-
-
-
-
-
-
-
-
-
-
-
-@include('layouts.footer')
+@extends('layouts.header')

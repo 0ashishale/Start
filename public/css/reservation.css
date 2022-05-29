@@ -1,0 +1,86 @@
+.reservation{
+background-color: rgb(39, 64, 102);
+background-position: center;
+text-align: center;
+background-image: linear-gradient(rgb(8, 42, 63),rgba(0,0,0.5)),url(background.jpj);
+border: rgba(0,0,0.5);
+color: wheat;
+padding: 12px 4px;
+
+}
+
+#input-box{
+    background-color: aquamarine;
+    text-align: left;
+    padding: 5px;
+    color: whitesmoke;
+    font-size: large;
+}
+.button{
+    width: auto;
+    color: whitesmoke;
+    border: rgb(41, 131, 139) solid black; color: rgb(147, 156, 165);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+image-rendering: crisp-edges;
+}
+.details{
+    text-decoration-color: aqua;
+    color: rgb(147, 156, 165);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-family:"convergence", sans-serif;
+
+}
+.title{
+    font-size: large;
+    padding-top: 20px;
+    background-color: aqua 20px 3px;
+    color: rgb(147, 156, 165);
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.latter{
+    display: -moz-grid-line;
+    font-style: italic;
+    border: 1px solid rgb(153, 131, 131);
+    background: transparent;
+
+    color: rgb(0, 4, 9);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    transition: 1s;
+} 
+.latter:hover{
+    background: white;
+    color: black;
+}
+.value:hover{
+    background-attachment: fixed;
+    background-color: green;
+    color: white;
+    
+}
+.value{
+    background-color: aliceblue;
+    color: rgb(9, 15, 22);
+    font-weight: 600;
+    font-size: larger;
+    line-height: 20px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 5px white;border-radius: 5px;border-top: 10px white;border-right: 10px white;
+    transition: 1s;
+
+}

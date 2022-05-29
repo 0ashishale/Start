@@ -1,5 +1,5 @@
-@include('layouts.header')
-
+@extends('layouts.master')
+@section('event')
 <section class="services">
        
        <b><a href="#"  class="heading">OUR SERVICES</a> </b><br/>
@@ -39,4 +39,4 @@
    </section>
 
 
-@include('layouts.footer')
+@endsection()

@@ -7,12 +7,17 @@
   <title>Club</title>
   
   <link rel="stylesheet" href = "/css/navbar.css" >
+  <link rel="stylesheet" href="/css/reservation.css">
+  <link rel="stylesheet" href="/css/logo.css">
   <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
   </head>
 <body>
   <!-- -----------Header Section------------ -->
 
   <section class="header">
+  <div class="logo" >
+      <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
+      </div>
       <div class="nav-bar">
         <ul>
           <li><a href="/">Home</a></li>

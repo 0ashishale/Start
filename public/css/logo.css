@@ -1,0 +1,13 @@
+.design{
+    padding: 0%;
+ width: 1178px;
+margin: auto;
+}
+.logo{
+    size: 12px;
+    margin: 0%;
+    padding-top: 5px ;
+    padding-left: 5%;
+    float: left;
+    position: fixed;
+}

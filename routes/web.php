@@ -24,6 +24,9 @@ Route::get('/about_us', function(){
     return view('about');
 });
 
+Route::get('/services', [RouteController::class, 'services']);
+Route::get('/reservation', [RouteController::class, 'reservation']);
+
 
 // Route::get('/about', [RouteController::class, 'about']);
 // Route::get('/services', [RouteController::class, 'services']);
