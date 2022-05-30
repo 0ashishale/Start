@@ -9,6 +9,7 @@
   <link rel="stylesheet" href = "/css/navbar.css" >
   <link rel="stylesheet" href="/css/reservation.css">
   <link rel="stylesheet" href="/css/logo.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
   </head>
 <body>
@@ -20,13 +21,33 @@
       </div>
       <div class="nav-bar">
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="{{url('/about_us')}}">About US</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/events">Events</a></li>
-          <li><a href="/reservation">Reservation</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/"><i class="fa fa-home"></i>
+Home</a></li>
+          <li><a href="/about"><i class="fa fa-grav"></i>About US</a>
+             <div class="sub-manu-1">
+               <ul>
+                 <li><a href="#">Pricing</a></li><br>
+                 <li class="hover-me"><a href="#">Events<i class="fa fa-angle-double-right"></i></a>
+                   <div class="sub-manu-2">
+                     <ul>
+                       <li><a href="#">blog</a></li>
+                       <li><a href="#">contact us</a></li>
+                     </ul>
+                   </div>
+                </li><br>
+                 <li><a href="#">Testimonials</a></li>
+               </ul>
+             </div>
+        </li>
+          <li><a href="/services"><i class="fa fa-server"></i>
+Services</a></li>
+          <li><a href="/gallery"><i class="fa fa-film"></i>
+Gallery</a></li>
+          <li><a href="/events"><i class="fa fa-calendar"></i>
+Events</a></li>
+          <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
+          <li><a href="/contact"><i class="fa fa-handshake-o"></i>
+Contact Us</a></li>
         </ul>
       </div>
  </section> 

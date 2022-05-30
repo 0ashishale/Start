@@ -6,6 +6,7 @@ background-image: linear-gradient(rgb(8, 42, 63),rgba(0,0,0.5)),url(background.j
 border: rgba(0,0,0.5);
 color: wheat;
 padding: 12px 4px;
+padding-top: 100px;
 
 }
 
@@ -83,4 +84,22 @@ image-rendering: crisp-edges;
     border: 5px white;border-radius: 5px;border-top: 10px white;border-right: 10px white;
     transition: 1s;
 
+}
+.message{
+    display: -moz-grid-line;
+    font-style: italic;
+    border: 1px solid rgb(153, 131, 131);
+    background: transparent;
+
+    color: rgb(0, 4, 9);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 40px 50px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.message:hover{
+    background: white;
+    color: black;
 }

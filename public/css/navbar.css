@@ -22,7 +22,7 @@
  
   position: fixed;
   width: 95%;
-  background-color: rgb(49, 12, 12, 0.8);
+  background-color:rgb(20, 11, 49,0.8);
   padding: 40px ;
   justify-content: space-between;
   overflow: auto;
@@ -60,6 +60,48 @@
 
 .nav-bar ul li:hover::after{
   width: 100%;
+}
+.sub-manu-1{
+  display: none;
+  font-size: small;
+}
+.nav-bar ul li:hover .sub-manu-1
+{
+  display: block;
+  position: fixed;
+  background: rgb(20, 11, 49);
+  margin-top: 0px;
+  margin-left: -15px;
+  background: -moz-linear-gradient(20,10,12);
+}
+.nav-bar ul li:hover .sub-manu-1 ul
+{
+  display: block;
+  margin: 10px;
+}
+.nav-bar ul li:hover .sub-manu-1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.sub-manu-2
+{
+  display: none;
+  font-size: small;
+}
+.hover-me:hover .sub-manu-2
+{
+  position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background:  rgb(20, 11, 49);
+}
+.nav-bar .fa{
+  margin: 8px;
 }
 
 /* ----------------Content Section--------------- */

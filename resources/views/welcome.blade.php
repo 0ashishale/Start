@@ -127,7 +127,7 @@
        <br>
        <div class="input-box">
          <span class="details">Message:</span><br>
-         <input type="text" class="latter" placeholder="Enter your message"required>
+         <input type="text" class="message" placeholder="Enter your message"required>
        </div>
        <br>
        <div class="button">

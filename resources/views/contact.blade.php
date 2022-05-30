@@ -1,10 +1,12 @@
 @extends('layouts.master')
-
 @section('event')
-<section class="reservation">
-  <div class="title"> <h1>WANT TO BOOK A TABLE FOR A SPECIAL OCCASION ?</h1><br>
-     <p>Grinnesso is multi-purpose venue. Make an enquiry about hiring our space.</p>
+
+      <section class="reservation">
+  <div class="title">
+      <h1>CONTACT US </h1><br>
+    <h3 class="details">(feel free to send us a message)</h3>
 </div>
+
   <br>
   <FORM action="#">
     <div class="input-box">
@@ -19,17 +21,6 @@
        </div>
        <br>
        <div class="input-box">
-         <span class="details">Phone No:</span><br>
-         <input type="number" class="latter"  placeholder="Enter your phone number"required>
-         
-       </div><br>
-       <div class="input-box">
-         <span class="details">No. of people:</span><br>
-         <input type="number" class="latter"  placeholder="Enter No. of poeple"required>
-         
-       </div>
-       <br>
-       <div class="input-box">
          <span class="details">Message:</span><br>
          <input type="text" class="message" placeholder="Enter your message"required>
        </div>
@@ -39,5 +30,4 @@
        </div> <br>
   </FORM>
 </section>
-
 @endsection()

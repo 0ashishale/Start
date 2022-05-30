@@ -19,5 +19,16 @@ class RouteController extends Controller
         return view('reservation');
     }
 
-
+    function events(){
+        return view('events');
+    }
+    function gallery(){
+        return view('gallery');
+    }
+    function about(){
+        return view('about');
+    }
+    function contact(){
+        return view('contact');
+    }
 }

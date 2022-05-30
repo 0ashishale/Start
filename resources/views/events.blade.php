@@ -1,4 +1,5 @@
-@include('layouts.header')
+@extends('layouts.master')
+@section('event')
 
             
     <section class="book-table"> 
@@ -30,4 +31,4 @@
   
       </section>
 
-@include('layouts.footer')
+@endsection()
