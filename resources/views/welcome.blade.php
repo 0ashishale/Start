@@ -100,7 +100,7 @@
       <section class="reservation">
   <div class="title">TABLE RESERVATION</div>
   <br>
-  <FORM action="#">
+  <form action="#">
     <div class="input-box">
          <span class="details">Name:</span><br>
          
@@ -126,22 +126,13 @@
        <div class="button">
          <input type="submit" class="value" value="Send message">
        </div> <br>
-  </FORM>
+</form>
 </section>
 
       
 
-<div id="googleMap" style="width:100%;height:400px;" ></div>
 
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(51.508742,-0.120850),
-  zoom:5,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>    
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7029.990810664071!2d83.98180702529555!3d28.237819136874638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995945d57d28ba5%3A0xdd52869218279546!2sShree%20Bindhyabasini%20Temple!5e0!3m2!1sen!2snp!4v1653900842774!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 @endsection()

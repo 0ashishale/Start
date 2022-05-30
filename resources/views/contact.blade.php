@@ -1,7 +1,9 @@
 @extends('layouts.master')
 @section('event')
 
-      <section class="reservation">
+
+
+ <section class="reservation">
   <div class="title">
       <h1>CONTACT US </h1><br>
     <h3 class="details">(feel free to send us a message)</h3>
