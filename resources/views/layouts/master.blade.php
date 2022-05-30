@@ -23,7 +23,7 @@
         <ul>
           <li><a href="/"><i class="fa fa-home"></i>
 Home</a></li>
-          <li><a href="/about"><i class="fa fa-grav"></i>About US</a>
+          <li><a><i class="fa fa-grav"></i>About US</a>
              <div class="sub-manu-1">
                <ul>
                  <li><a href="#">Pricing</a></li><br>
