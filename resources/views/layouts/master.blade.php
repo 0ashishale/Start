@@ -27,7 +27,7 @@ Home</a></li>
              <div class="sub-manu-1">
                <ul>
                  <li><a href="#">Pricing</a></li><br>
-                 <li class="hover-me"><a href="#">Events<i class="fa fa-angle-double-right"></i></a>
+                 <li class="hover-me"><a href="{{url('/events')}}">Events<i class="fa fa-angle-double-right"></i></a>
                    <div class="sub-manu-2">
                      <ul>
                        <li><a href="#">blog</a></li>
@@ -51,6 +51,17 @@ Contact Us</a></li>
         </ul>
       </div>
  </section> 
+
+ <section >
+    <div class="text-box">
+        <!-- <p>ENJOY THE MUSIC</p>
+        <h1>MAKE YOUR NIGHT</h1> -->
+        <p>{{$text}}</p>
+        <h1>{{$title}}</h1>
+
+        
+    </div>
+    </section>
 
  @yield('event')
 

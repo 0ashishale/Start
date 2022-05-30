@@ -1,5 +1,7 @@
 @extends('layouts.master')
+
 @section('event')
+
 
             
     <section class="book-table"> 

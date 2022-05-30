@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('event')
+
+
 <section class="reservation">
   <div class="title"> <h1>WANT TO BOOK A TABLE FOR A SPECIAL OCCASION ?</h1><br>
      <p>Grinnesso is multi-purpose venue. Make an enquiry about hiring our space.</p>

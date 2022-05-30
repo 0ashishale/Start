@@ -9,14 +9,14 @@ class RouteController extends Controller
     //
 
     function home(){
-        return view('welcome');
+        return view('welcome', [ 'text'=>'ENJOY THE MUSIC', 'title'=>'MAKE YOUR NIGHT']);
     }
 
     function services(){
-        return view('services');
+        return view('services', ['text'=>'write something', 'title'=>'Our Services']);
     }
     function reservation(){
-        return view('reservation');
+        return view('reservation',['text'=>'Reserve Your Table', 'title'=>'Reservation']);
     }
 
     function events(){
