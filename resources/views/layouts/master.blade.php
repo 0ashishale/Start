@@ -28,14 +28,7 @@ Home</a></li>
                <ul>
                  <li><a href="#">Pricing</a></li><br>
                  <li class="hover-me"><a href="{{url('/events')}}">Events<i class="fa fa-angle-double-right"></i></a>
-                   <div class="sub-manu-2">
-                     <ul>
-                       <li><a href="#">blog</a></li>
-                       <li><a href="#">contact us</a></li>
-                     </ul>
-                   </div>
                 </li><br>
-                 <li><a href="#">Testimonials</a></li>
                </ul>
              </div>
         </li>
