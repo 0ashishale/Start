@@ -1,15 +1,6 @@
 @extends('layouts.master')
 @section('event')
-<section >
-    <div class="text-box">
-        <!-- <p>ENJOY THE MUSIC</p>
-        <h1>MAKE YOUR NIGHT</h1> -->
-        <p>{{$text}}</p>
-        <h1>{{$title}}</h1>
 
-        
-    </div>
-    </section>
 
 
 <section class="services">
