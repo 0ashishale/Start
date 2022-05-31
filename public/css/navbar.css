@@ -45,10 +45,12 @@
   text-decoration: none;
   color: rgb(225, 233, 241);
   text-transform: uppercase;
-
- 
-
 }
+.nav-bar ul li a:active{
+  color: chartreuse;
+}
+
+
 .nav-bar ul li::after{
   content: '';
   height: 3px;
@@ -63,7 +65,7 @@
 .nav-bar ul li:hover::after{
   width: 100%;
 }
-.sub-manu-1{
+/* .sub-manu-1{
   display: none;
   font-size: small;
 }
@@ -101,10 +103,74 @@ display: block;
 margin-top: -40px;
 margin-left: 140px;
 background:  rgb(20, 11, 49);
-}
+} */
 .nav-bar .fa{
   margin: 8px;
 }
+
+/* --------for media------- */
+.nav-bar i.fa{
+  display: none;
+  color: aliceblue;
+
+}
+.header .fa-solid{
+  display: none;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .text-box h1{
+    font-size: 20px;
+  }
+  .text-box p{
+    font-size: 13px;
+  
+  }
+  .header .logo{
+    position: relative;
+  }
+
+  #navLinks{
+    right: -200px;
+    position: absolute;
+    height: 100vh;
+    width: 150px;
+    text-align: left;
+    padding: 2px;
+    top: 0;
+    z-index: 2; 
+    background-color: black;  
+  }
+  .nav-bar li {
+    padding: 15px;
+    justify-content: space-around;
+  }
+  .header .fa-solid{
+    display: block;
+    color: aliceblue;
+    float: right;
+    margin: 70px 20px ;
+    cursor: pointer;
+  }
+  .nav-bar i.fa{
+    display: block;
+    color: aliceblue;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    
+  }
+
+  .nav-bar li a i.fa{
+      display: none;
+  }
+ 
+
+ 
+}
+
 
 /* ----------------Content Section--------------- */
 
@@ -154,9 +220,7 @@ background:  rgb(20, 11, 49);
 
 
 /* -------------booktable----------- */
-/* .event{
-  margin-top: 20px;
-} */
+
 .book-table{
   background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62)),url(background.jpj);
   width: 100%;
@@ -301,8 +365,11 @@ margin: 3%;
 
 .icons{
  margin: 100px 0 50px 0;
- justify-content: space-between;
+ 
   
+}
+.fa-brands {
+  margin-right: 2em;
 }
 
 .info-bar{
