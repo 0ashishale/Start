@@ -1,13 +1,31 @@
-.design{
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+ }.design{
     padding: 0%;
  width: 1178px;
 margin: auto;
 }
 .logo{
-    size: 12px;
-    margin: 0%;
-    padding-top: 5px ;
-    padding-left: 5%;
-    float: left;
+    text-decoration: none;
+  color: aliceblue;
+    border: 2px solid rgb(145, 55, 14);
+    font-size: 35px;
+    background: transparent;
+    position: relative;
+    width: 80;
+    height: 40;
     position: fixed;
+
+    
+}
+.logo h1{
+    color: linear-gradient(rgb(158, 241, 192),rgb(172, 118, 244));
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100;
+    display: block;
+
 }

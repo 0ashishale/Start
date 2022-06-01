@@ -19,7 +19,7 @@ Route::get('/services', [RouteController::class, 'services']);
 Route::get('/reservation', [RouteController::class, 'reservation']);
 Route::get('/events', [RouteController::class, 'events']);
 Route::get('/gallery', [RouteController::class, 'gallery']);
-Route::get('/aboutus/pricing', [RouteController::class, 'pricing']);
+Route::get('/aboutus', [RouteController::class, 'aboutus']);
 
 // Route::get('/about', [RouteController::class, 'about']);
 // Route::get('/services', [RouteController::class, 'services']);

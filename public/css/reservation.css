@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+ }
 .reservation{
 background-color: rgb(39, 64, 102);
 background-position: center;
 text-align: center;
-background-image: linear-gradient(rgb(8, 42, 63),rgba(0,0,0.5)),url(background.jpj);
+background-image: linear-gradient(rgb(4, 35, 17),rgb(32, 6, 65)),url(background.jpj);
 border: rgba(0,0,0.5);
 color: wheat;
 padding: 12px 4px;

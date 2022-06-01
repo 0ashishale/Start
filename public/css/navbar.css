@@ -1,7 +1,7 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: sans-serif;
+   
    
 }
 
@@ -14,97 +14,102 @@
   background-size: cover;
    background-position: center;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   background-attachment: fixed;
- 
+  font-family: Arial, Helvetica, sans-serif;
 
 }
+@import url('http://fonts.googleapis.com.css?family=Oswald:400,700');
+.branch
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  margin-top: 180px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 
-.nav-bar{
- 
-  position: fixed;
-  width: 95%;
-  background-color:rgb(20, 11, 49,0.8);
-  padding: 40px ;
-  justify-content: space-between;
-  overflow: auto;
-  text-align: right;
-  
- 
+
+
 }
-
-.nav-bar ul li {
-
-  list-style: none;
-  display: inline-block;
-  margin: 0 20px;
+.branch ul{
+  transform:skew(-15deg) ;
   position: relative;
-  font-size: 15px;
 }
-.nav-bar ul li a {
+.branch ul li{
+  position: relative;
+  list-style: none;
+  width: 200;
+  background: rgb(37, 17, 17);
+  padding: 15px;
+  z-index: var(--i);
+
+}
+.branch ul li a{
   text-decoration: none;
-  color: rgb(225, 233, 241);
+  color: rgb(236, 224, 224);
+  display: block;
   text-transform: uppercase;
-
- 
-
+  letter-spacing: 00.05em;
+  transition: 0.5s;
 }
-.nav-bar ul li::after{
+.branch ul li ::before{
   content: '';
-  height: 3px;
-  width: 0;
-  background: green;
   position: absolute;
-  left: 0;
-  bottom: -5px;
-  transition: 1s;
+  top: 0;
+  left: -40px;
+  width: 40px;
+  height: 100%;
+  background: rgb(28, 13, 13);
+  transform-origin: right;
+  transform: skewY(45deg);
+  transition: 0.5s;
+
+}
+.branch ul li:hover ::before{
+  background: red;
 }
 
-.nav-bar ul li:hover::after{
-  width: 100%;
+.branch ul li ::after{
+content: '';
+position: absolute;
+top: -40px;
+left: 0;
+width: 100%;
+height: 40px;
+background: rgb(30, 10, 10);
+transform-origin: bottom;
+transform:  skewX(45deg);
+transition: 0.5s;
+
 }
-.sub-manu-1{
-  display: none;
-  font-size: small;
+.branch ul li:hover ::after{
+  background: red;
+  
 }
-.nav-bar ul li:hover .sub-manu-1
-{
+.branch ul li a{
+  text-decoration: none;
+  color: #fff;
   display: block;
-  position: fixed;
-  background: rgb(20, 11, 49);
-  margin-top: 0px;
-  margin-left: -15px;
-  background: -moz-linear-gradient(20,10,12);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+
+  
 }
-.nav-bar ul li:hover .sub-manu-1 ul
-{
-  display: block;
-  margin: 10px;
+.branch ul li:hover {
+  color: aqua;
+  background: red;
+  transform: translateX(50px);
+
+
 }
-.nav-bar ul li:hover .sub-manu-1 ul li
-{
-  width: 150px;
-  padding: 10px;
-  background: transparent;
-  border-radius: 0;
-  text-align: left;
-}
-.sub-manu-2
-{
-  display: none;
-  font-size: small;
-}
-.hover-me:hover .sub-manu-2
-{
-  position: absolute;
-display: block;
-margin-top: -40px;
-margin-left: 140px;
-background:  rgb(20, 11, 49);
-}
-.nav-bar .fa{
-  margin: 8px;
-}
+
+
+
 
 /* ----------------Content Section--------------- */
 
@@ -117,16 +122,23 @@ background:  rgb(20, 11, 49);
   transform: translate(-50%,-50%);
   text-align: center;
   
+  
 }
 
 .text-box p{
   font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
 
 }
 
 .text-box h1{
   font-size: 80px;
   margin: 10px 0 40px;
+  color: red;
+  text-decoration-color: red;
+  text-decoration: overline;
+
 }
 
 .hero-btn {
@@ -158,7 +170,7 @@ background:  rgb(20, 11, 49);
   margin-top: 20px;
 } */
 .book-table{
-  background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62)),url(background.jpj);
+  background-image: linear-gradient(rgb(18, 7, 52), rgb(63, 28, 62)),url(background.jpj);
   width: 100%;
   margin: auto;
   text-align: center;
@@ -245,7 +257,7 @@ margin: 3%;
 .gallery {
 
  
-  background-image: linear-gradient(rgb(3, 3, 21),rgb(8, 42, 63)),url(background.jpj);
+  background-image: linear-gradient(rgb(3, 3, 21),rgb(4, 35, 17)),url(background.jpj);
 
 }
 
@@ -301,6 +313,7 @@ margin: 3%;
 
 .icons{
  margin: 100px 0 50px 0;
+ padding-left: 13px;
  justify-content: space-between;
   
 }
