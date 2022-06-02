@@ -2,10 +2,10 @@
 background-color: rgb(39, 64, 102);
 background-position: center;
 text-align: center;
-background-image: linear-gradient(rgb(8, 42, 63),rgba(0,0,0.5)),url(background.jpj);
+background-image: linear-gradient(rgb(8, 42, 63),rgba(0,0,0.5));
 border: rgba(0,0,0.5);
 color: wheat;
-padding: 12px 4px;
+padding: 5px 4px;
 padding-top: 100px;
 
 }
@@ -13,7 +13,7 @@ padding-top: 100px;
 #input-box{
     background-color: aquamarine;
     text-align: left;
-    padding: 5px;
+    padding: 3px;
     color: whitesmoke;
     font-size: large;
 }
@@ -37,7 +37,8 @@ image-rendering: crisp-edges;
     padding: 2px;
     margin-bottom: 10px;
     font-family:"convergence", sans-serif;
-
+    display: none;
+  
 }
 .title{
     font-size: large;
