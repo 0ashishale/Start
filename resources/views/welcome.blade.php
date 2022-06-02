@@ -95,39 +95,48 @@
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
         </div>
 
+        <div class="reservation">
+         <form>
+           <div class="row1">
+              <div class="input-group">
+                <input type="text" id="Name"required>
+                <label for="name">your Name</label>
+              </div>
+              <div class="input-group">
+                <input type="text" id="number"required>
+                <label for="number">Phone No.</label>
+              </div>
+           </div>
+           <div class="row2">
+             <div class="input-group">
+                <input type="number" id="people"required>
+                <label for="number">NO. Of People</label>
+              </div>
+              <div class="input-group">
+                <input type="date" name="date" required>
+                <label for="date"></label>
+              </div>
+           </div>
+              <div class="input-group">
+                <input type="email" id="email"required>
+                <label for="email">Email Id</label>
+              </div>
 
-      </section>
-      <section class="reservation">
-  <div class="title">TABLE RESERVATION</div>
-  <br>
-  <form action="#">
-    <div class="input-box">
-         <span class="details">Name:</span><br>
-         
-         <input type="text" class="latter" placeholder="Enter your name"required>
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">E-mail:</span><br>
-         <input type="text" class="latter" placeholder="Enter your email"required>
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">Phone No:</span><br>
-         <input type="number" class="latter"  placeholder="Enter your phone number"required>
-         
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">Message:</span><br>
-         <input type="text" class="message" placeholder="Enter your message"required>
-       </div>
-       <br>
-       <div class="button">
-         <input type="submit" class="value" value="Send message">
-       </div> <br>
-</form>
-</section>
+              <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              <div>
+                 <button type="submit">SUBMIT</button>
+              </div>
+              <!--<div class="input-group">
+                <span class="details">Select Branches:</span><br>
+                <input type="radio" name="branch">  <h3>Pokhara</h3> 
+                <input type="radio" name="branch"><h3>Shyanja</h3> 
+                <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
+              </div>-->
+          </form>
+        </div>
 
       
 
