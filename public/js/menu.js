@@ -11,9 +11,10 @@
 
  function scrollFunction() {
    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-     document.getElementById("navLinks").style.fontSize = "10px";
+     document.getElementById("navLinks").style.fontSize = "0";
+    
    } else {
-     document.getElementById("navLinks").style.fontSize = "40px";
+     document.getElementById("navLinks").style.fontSize = "50px";
    }
 
 

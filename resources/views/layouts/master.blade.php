@@ -27,15 +27,15 @@
   <!-- -----------Header Section------------ -->
 
   <section class="header">
-    <div class="logo">
-      <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
-
-    </div>
+   
     <i class="fa-solid fa-bars"  onclick="showMenu()" ></i>
     <div class="nav-bar" id="navLinks">
       <i class="fa fa-times" onclick="hideMenu()" ></i>
       
-      
+      <div class="logo">
+      <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
+
+    </div>
       <ul>
 
         <li><a href="/"><i class="fa fa-home"></i>
