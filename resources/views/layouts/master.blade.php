@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Club</title>
 
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/reservation.css">
-  <link rel="stylesheet" href="/css/logo.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/branch.css">
-  <link rel="stylesheet" href="/css/booktable.css">
-  <link rel="stylesheet" href="/css/content.css">
-  <link rel="stylesheet" href="/css/gallery.css">
-  <link rel="stylesheet" href="/css/service.css">
+  <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
+  <link rel="stylesheet" href="{{asset('css/reservation.css')}}">
+  <link rel="stylesheet" href="{{asset('css/logo.css')}}">
+  <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+  <link rel="stylesheet" href="{{asset('css/branch.css')}}">
+  <link rel="stylesheet" href="{{asset('css/booktable.css')}}">
+  <link rel="stylesheet" href="{{asset('css/content.css')}}">
+  <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
+  <link rel="stylesheet" href="{{asset('css/service.css')}}">
   
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
