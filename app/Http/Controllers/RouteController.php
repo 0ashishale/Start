@@ -16,7 +16,7 @@ class RouteController extends Controller
         return view('services', ['text'=>'Full services to meet your every need', 'title'=>'Our Services']);
     }
     function reservation(){
-        return view('reservation',['text'=>'Reserve Your Table', 'title'=>'Reservation']);
+        return view('reservation',['text'=>'Scrooll up for', 'title'=>'Reservation']);
     }
 
     function events(){

@@ -10,7 +10,7 @@
       
     <b><a href="#"  class="heading">EVENTS</a> </b><br/>
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
         <h1>NON STOP PARTY</h1>
         <p>Enjoy the event throughout the entire night. </p>
         
@@ -18,7 +18,7 @@
       </div>
 
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
         <h1>SPECIAL PROGRAM</h1>
         <p>Enjoy the special progaram every night. </p>
         
@@ -26,7 +26,7 @@
       </div>
 
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/img.jpg') }}" alt="" >
         <h1>TOP RESIDENCE</h1>
         <p>Enjoy the event throughout the entire night </p>
         
@@ -83,22 +83,26 @@
       <section class="gallery">
         <h1 class="heading">GALLERY</h1>
       <div class="services-row" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
+        <img src="{{ asset('images/c.jpg') }}" alt="" >
+        <img src="{{ asset('images/reservation.jpg') }}" alt="" >
+        <img src="{{ asset('images/d.jpg') }}" alt="" >
+        <img src="{{ asset('images/e.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
+        <img src="{{ asset('images/img.jpg') }}" alt="" >
+        <img src="{{ asset('images/reservation.jpg') }}" alt="" >
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
+        <img src="{{ asset('images/e.jpg') }}" alt="" >
         </div>
 <!---reservation table-->
   <section>
-  <h1>RESERVATION TABLE</h1>
+  <div>
+      <b><a href="#"  class="heading">RESERVATION TABLE</TABLE></a> </b>
+      </div>
+      <br>
         <div class="reservation">
-          <h1>RESERVATION TABLE</h1>
          <form>
            <div class="row1">
               <div class="input-group">

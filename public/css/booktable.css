@@ -1,5 +1,6 @@
 .book-table{
-    background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62));
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/a.jpg') ;
+  background-attachment: fixed;
     width: 100%;
     margin: auto;
     text-align: center;
