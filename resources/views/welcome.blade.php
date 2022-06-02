@@ -94,8 +94,10 @@
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
         </div>
-
+<!---reservation table-->
+  <section>
         <div class="reservation">
+          <h1>RESERVATION TABLE</h1>
          <form>
            <div class="row1">
               <div class="input-group">
@@ -137,7 +139,7 @@
               </div>-->
           </form>
         </div>
-
+</section>
       
 
 
