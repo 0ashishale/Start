@@ -35,8 +35,4 @@
           </form>
         </div>
 </section>        
-
-
-
- <
 @endsection()
