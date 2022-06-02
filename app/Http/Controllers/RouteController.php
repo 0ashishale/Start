@@ -29,9 +29,7 @@ class RouteController extends Controller
         return view('about',['text'=>'Know More About Us', 'title'=>'About Us']);
     }
     function contact(){
-        return view('contact',['text'=>'Contact for more details', 'title'=>'Reservation']);
+        return view('contact',['text'=>'Contact for more details', 'title'=>'Contact Us']);
     }
-    function pricing(){
-        return view('pricing',['text'=>'', 'title'=>'PRICING']);
-    }
+   
 }

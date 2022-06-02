@@ -1,0 +1,39 @@
+.book-table{
+    background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62)),url(background.jpj);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .booktable-row{
+    padding-top: 40px;
+    display: inline-table;
+    text-align: center;
+    margin: 3%;
+    
+    
+  
+  }
+  
+  .booktable-row img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .booktable-row h1{
+    font-size: 30px;
+    color: rgb(206, 219, 231);
+    font-weight: 600;
+  }
+  
+  .booktable-row p{
+    color: rgb(147, 156, 165);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  

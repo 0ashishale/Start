@@ -1,0 +1,36 @@
+
+.gallery {
+
+ 
+    background-image: linear-gradient(rgb(3, 3, 21),rgb(8, 42, 63)),url(background.jpj);
+  
+  }
+  
+  .gallery img{
+    margin: 10px;
+    margin-left: 20px;
+    height: 200px;
+    width: 30% ;
+    flex-basis: 5;
+    border-radius: 20px;
+    cursor: zoom-in;
+   
+  }
+  
+  .gallery img:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+    transition: 2s;
+  
+  }
+  
+  
+  .gallery h1{
+    padding-top: 50px;
+    margin-left: 70px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: rgb(210, 220, 228);
+  }
+  

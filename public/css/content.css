@@ -1,0 +1,45 @@
+
+.text-box{
+    width: 90%;
+    color: rgb(147, 156, 165);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+  }
+  
+  .text-box p{
+    font-size: 30px;
+  
+  }
+  
+  .text-box h1{
+    font-size: 80px;
+    margin: 10px 0 40px;
+  }
+  
+  .hero-btn {
+    
+    text-decoration: none;
+    color: azure;
+    border: 1px solid rgb(153, 131, 131);
+    padding: 10px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    
+    
+    
+    
+  }
+  
+  
+  .hero-btn:hover{
+    background-color: rgb(166, 179, 189);
+    transition: 1s;
+    color: rgb(24, 26, 23);
+  }
+  

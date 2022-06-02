@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="/css/reservation.css">
   <link rel="stylesheet" href="/css/logo.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/branch.css">
+  <link rel="stylesheet" href="/css/booktable.css">
+  <link rel="stylesheet" href="/css/content.css">
+  <link rel="stylesheet" href="/css/gallery.css">
+  <link rel="stylesheet" href="/css/service.css">
   
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -42,10 +48,8 @@
         <li><a href="/events"><i class="fa fa-calendar"></i>
             Events</a></li>
         <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
-        <li><a href="/contact"><i class="fa fa-handshake-o"></i>
-            Contact Us</a></li>
-
-           
+      
+        <li><a href="/contact"><i class="fa fa-handshake-o"></i>Contact Us</a></li>
 
       </ul>
      
@@ -53,37 +57,15 @@
    
     </div>
   </section>
-
-  <section>
-
-      </div>
-      <div class="nav-bar">
-        <ul>
-          <li><a href="/"><i class="fa fa-home"></i>
-Home</a></li>
-          <li><a><i class="fa fa-grav"></i>About US</a>
-             <div class="sub-manu-1">
-               <ul>
-                 <li><a href="/aboutus/pricing">Pricing</a></li><br>
-                 <li class="hover-me"><a href="{{url('/events')}}">Events<i class="fa fa-angle-double-right"></i></a>
-                </li><br>
-               </ul>
-             </div>
-        </li>
-          <li><a href="/services"><i class="fa fa-server"></i>
-Services</a></li>
-          <li><a href="/gallery"><i class="fa fa-film"></i>
-Gallery</a></li>
-          <li><a href="/events"><i class="fa fa-calendar"></i>
-Events</a></li>
-          <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
-          <li><a href="/contact"><i class="fa fa-handshake-o"></i>
-Contact Us</a></li>
-        </ul>
-      </div>
- </section> 
-
- <section >
+   <!-----branch section--->
+   <div class="branch">
+     <ul>
+       <li style="--i:4;"><a href="#">branch1</a></li>
+       <li style="--i:3;"><a href="#">branch2</a></li>
+       <li style="--i:2;"><a href="#">branch3</a></li>
+       <li style="--i:1;"><a href="#">branch4</a></li>
+     </ul>
+   </div>
 
     <div class="text-box">
       <!-- <p>ENJOY THE MUSIC</p>
