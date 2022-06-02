@@ -20,7 +20,7 @@
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   
-  <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
@@ -40,7 +40,11 @@
 
         <li><a href="/"><i class="fa fa-home"></i>
             Home</a></li>
-        <li><a><i class="fa fa-grav"></i>About Us</a> </li>
+
+            <li><a href="/branches"><i class="fa fa-link"></i></i>
+            Branches</a></li>
+
+        <li><a href="/about"><i class="fa fa-grav"></i>About Us</a> </li>
         <li><a href="/services"><i class="fa fa-server"></i>
             Services</a></li>
         <li><a href="/gallery"><i class="fa fa-film"></i>
@@ -64,8 +68,7 @@
 
 
     <div class="text-box">
-      <!-- <p>ENJOY THE MUSIC</p>
-        <h1>MAKE YOUR NIGHT</h1> -->
+     
       <p>{{$text}}</p>
       <h1>{{$title}}</h1>
 
@@ -73,7 +76,9 @@
     </div>
   </section>
 
-  @yield('event')
+@yield('event')
+
+
 
   <!-- ------------------Footer-------------- -->
   <section class="footer">
@@ -94,6 +99,7 @@
   </section>
 
 <script src="{{asset('js/menu.js')}}"> </script>
+<script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
 
 </body>
 

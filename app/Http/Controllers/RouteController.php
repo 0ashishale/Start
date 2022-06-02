@@ -31,5 +31,8 @@ class RouteController extends Controller
     function contact(){
         return view('contact',['text'=>'Contact for more details', 'title'=>'Contact Us']);
     }
+    function branches(){
+        return view('branches',['text'=>'which branch you want?', 'title'=>'Branches']);
+    }
    
 }

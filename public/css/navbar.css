@@ -29,6 +29,7 @@
   justify-content: space-between;
   overflow: auto;
   text-align: right;
+  z-index: 100;
   
  
 }
