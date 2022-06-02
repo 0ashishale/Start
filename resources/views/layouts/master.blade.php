@@ -54,35 +54,7 @@
     </div>
   </section>
 
-  <section>
-
-      </div>
-      <div class="nav-bar">
-        <ul>
-          <li><a href="/"><i class="fa fa-home"></i>
-Home</a></li>
-          <li><a><i class="fa fa-grav"></i>About US</a>
-             <div class="sub-manu-1">
-               <ul>
-                 <li><a href="/aboutus/pricing">Pricing</a></li><br>
-                 <li class="hover-me"><a href="{{url('/events')}}">Events<i class="fa fa-angle-double-right"></i></a>
-                </li><br>
-               </ul>
-             </div>
-        </li>
-          <li><a href="/services"><i class="fa fa-server"></i>
-Services</a></li>
-          <li><a href="/gallery"><i class="fa fa-film"></i>
-Gallery</a></li>
-          <li><a href="/events"><i class="fa fa-calendar"></i>
-Events</a></li>
-          <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
-          <li><a href="/contact"><i class="fa fa-handshake-o"></i>
-Contact Us</a></li>
-        </ul>
-      </div>
- </section> 
-
+  
  <section >
 
     <div class="text-box">
