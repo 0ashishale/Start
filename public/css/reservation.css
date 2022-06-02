@@ -1,20 +1,23 @@
-.reservation{
+*{
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
 }
-.input-group{
+.reservation{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('../images/background.jpg') ;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('img/background.jpg') ;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
+   justify-content: center;
 }
 form{
     width: 90%;
     max-width: 600px;
+   
 
 }
 .input-group{
@@ -38,6 +41,7 @@ label{
     padding: 10px;
     color: #fff;
     cursor: text;
+    transition: 0.2s;
 
 }
 button{
@@ -49,16 +53,30 @@ button{
     cursor: pointer;
 }
 input:focus~label,
-input:valid~label,input:focus~label,
-input:valid~label{
+input:valid~label,textarea:focus~label,
+textarea:valid~label{
     top: -35px;
     font-size: 14px;
 }
-.row{
+.row1{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.row .input-group{
+.row1 .input-group{
     flex-basis: 48%;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2 .input-group{
+    flex-basis: 48%;
+}
+button:hover{
+    background: rgb(17, 3, 57);
+    color: rgb(248, 250, 248);
+    font-size: large;
+    transition: 0.2s;
 }
