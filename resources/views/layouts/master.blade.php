@@ -68,7 +68,7 @@
 
 
     <div class="text-box">
-     
+
       <p>{{$text}}</p>
       <h1>{{$title}}</h1>
 
@@ -87,12 +87,11 @@
       <p id="phone">Phone : 00000000 <br> Fax : 0000000</p>
     </div>
     <div class="icons"></div>
-    <i class="fa-brands fa-facebook"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-instagram"></i>
-
-
+    <a href=""><i class="fa-brands fa-facebook" style="color:white"></i></a>
+    <a href=""> <i class="fa-brands fa-twitter" style="color:white"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin" style="color:white"></i></a>
+    <a href=""><i class="fa-brands fa-instagram" style="color:white"></i></a>
+  
     <p id="bholenath">© 2022 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH.
 
     </p>
