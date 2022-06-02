@@ -57,15 +57,11 @@
    
     </div>
   </section>
-   <!-----branch section--->
-   <div class="branch">
-     <ul>
-       <li style="--i:4;"><a href="#">branch1</a></li>
-       <li style="--i:3;"><a href="#">branch2</a></li>
-       <li style="--i:2;"><a href="#">branch3</a></li>
-       <li style="--i:1;"><a href="#">branch4</a></li>
-     </ul>
-   </div>
+
+
+  
+ <section >
+
 
     <div class="text-box">
       <!-- <p>ENJOY THE MUSIC</p>
