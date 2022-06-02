@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
   background-attachment: fixed;
+  
  
 
 }
@@ -30,6 +31,7 @@
   overflow: auto;
   text-align: right;
   z-index: 100;
+  right: 0;
   
  
 }

@@ -96,6 +96,7 @@
         </div>
 <!---reservation table-->
   <section>
+  <h1>RESERVATION TABLE</h1>
         <div class="reservation">
           <h1>RESERVATION TABLE</h1>
          <form>
