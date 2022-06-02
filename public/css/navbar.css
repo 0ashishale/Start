@@ -75,17 +75,13 @@
 .header .fa-solid{
   display: none;
   color: aliceblue;
+  font-size: 20px;
 }
+
 
 @media screen and (max-width: 700px) {
   
-  .text-box h1{
-    font-size: 20px;
-  }
-  .text-box p{
-    font-size: 13px;
-  
-  }
+ 
   .header .logo{
     position: relative;
   }
@@ -109,7 +105,7 @@
     display: block;
     color: aliceblue;
     float: right;
-    margin: 70px 20px ;
+    margin: 50px 20px ;
     cursor: pointer;
   }
   .nav-bar i.fa{

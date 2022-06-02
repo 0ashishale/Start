@@ -1,5 +1,5 @@
 .book-table{
-    background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62)),url(background.jpj);
+    background-image: linear-gradient(rgb(8, 42, 63), rgb(63, 28, 62));
     width: 100%;
     margin: auto;
     text-align: center;
