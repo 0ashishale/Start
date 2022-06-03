@@ -83,10 +83,7 @@
 
   <!-- ------------------Footer-------------- -->
   <section class="footer">
-    <div class="info-bar">
-      <p id="address">Phoolbari-11 <br /> Kaski, Nepal</p>
-      <p id="phone">Phone : 00000000 <br> Fax : 0000000</p>
-    </div>
+    
     <div class="icons"></div>
     <a href=""><i class="fa-brands fa-facebook" style="color:white"></i></a>
     <a href=""> <i class="fa-brands fa-twitter" style="color:white"></i></a>
