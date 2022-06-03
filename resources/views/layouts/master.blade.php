@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="{{asset('css/content.css')}}">
   <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
   <link rel="stylesheet" href="{{asset('css/service.css')}}">
+  <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
   
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
