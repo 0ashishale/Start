@@ -2,11 +2,10 @@
 .services {
   
     width: 100%;
-    padding-top: 100px;
-    background-size: cover;
-    background-image: linear-gradient( rgb(63, 28, 62),rgb(11, 11, 11)),url(background.jpj);
+    background-image: url('/images/table2.jpg') ;
     text-align: center;
     color: aliceblue;
+    background-attachment: fixed;
   }
   
   .heading{

@@ -5,7 +5,7 @@
       
       <b><a href="#"  class="heading">BRANCHES</a> </b><br/>
         <div class="booktable-row">
-          <img src="{{ asset('images/table2.jpg') }}" alt="" >
+          <img src="{{ asset('images/d.jpg') }}" alt="" >
           <h1>Branch-1</h1>
           <p>POKHARA</p>
           
@@ -21,7 +21,7 @@
         </div>
   
         <div class="booktable-row">
-          <img src="{{ asset('images/table2.jpg') }}" alt="" >
+          <img src="{{ asset('images/e.jpg') }}" alt="" >
           <h1>BRANCH-3</h1>
           <p>Baglung</p>
           

@@ -10,7 +10,7 @@
       
     <b><a href="#"  class="heading">EVENTS</a> </b><br/>
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
         <h1>NON STOP PARTY</h1>
         <p>Enjoy the event throughout the entire night. </p>
         
@@ -18,7 +18,7 @@
       </div>
 
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
         <h1>SPECIAL PROGRAM</h1>
         <p>Enjoy the special progaram every night. </p>
         
@@ -26,7 +26,7 @@
       </div>
 
       <div class="booktable-row">
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/img.jpg') }}" alt="" >
         <h1>TOP RESIDENCE</h1>
         <p>Enjoy the event throughout the entire night </p>
         
@@ -83,52 +83,68 @@
       <section class="gallery">
         <h1 class="heading">GALLERY</h1>
       <div class="services-row" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
+        <img src="{{ asset('images/c.jpg') }}" alt="" >
+        <img src="{{ asset('images/reservation.jpg') }}" alt="" >
+        <img src="{{ asset('images/d.jpg') }}" alt="" >
+        <img src="{{ asset('images/e.jpg') }}" alt="" >
+        <img src="{{ asset('images/b.jpg') }}" alt="" >
+        <img src="{{ asset('images/img.jpg') }}" alt="" >
+        <img src="{{ asset('images/reservation.jpg') }}" alt="" >
         <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
-        <img src="{{ asset('images/table2.jpg') }}" alt="" >
+        <img src="{{ asset('images/a.jpg') }}" alt="" >
+        <img src="{{ asset('images/e.jpg') }}" alt="" >
         </div>
+<!---reservation table-->
+  <section>
+  <div>
+      <b><a href="#"  class="heading">RESERVATION TABLE</TABLE></a> </b>
+      </div>
+      <br>
+      <div class="reservation">
+         <form>
+           <div class="row1">
+              <div class="input-group">
+                <input type="text" id="Name"required>
+                <label for="name"><i class="fa fa-user"></i>your Name</label>
+              </div>
+              <div class="input-group">
+                <input type="text" id="number"required>
+                <label for="number"><i class="fa fa-phone"></i>Phone No.</label>
+              </div>
+           </div>
+           <div class="row2">
+             <div class="input-group">
+                <input type="number" id="people"required>
+                <label for="number"><i class="fa fa-users"></i>NO. Of People</label>
+              </div>
+              <div class="input-group">
+                <input type="date" name="date" required>
+                <label for="date"></label>
+              </div>
+           </div>
+              <div class="input-group">
+                <input type="email" id="email"required>
+                <label for="email"><i class="fa fa-envelope" ></i>Email Id</label>
+              </div>
 
-
-      </section>
-      <section class="reservation">
-  <div class="title">TABLE RESERVATION</div>
-  <br>
-  <form action="#">
-    <div class="input-box">
-         <span class="details">Name:</span><br>
-         
-         <input type="text" class="latter" placeholder="Enter your name"required>
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">E-mail:</span><br>
-         <input type="text" class="latter" placeholder="Enter your email"required>
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">Phone No:</span><br>
-         <input type="number" class="latter"  placeholder="Enter your phone number"required>
-         
-       </div>
-       <br>
-       <div class="input-box">
-         <span class="details">Message:</span><br>
-         <input type="text" class="message" placeholder="Enter your message"required>
-       </div>
-       <br>
-       <div class="button">
-         <input type="submit" class="value" value="Send message">
-       </div> <br>
-</form>
+              <div class="input-group">
+                <textarea id="message" rows="8" required></textarea>
+                <label for="message"><i class="fa fa-comments-o"></i>Your Message</label>
+              </div>
+              <div>
+                 <button type="submit">SUBMIT<i class="fa fa-paper-plane"></i></button>
+              </div>
+              <!--<div class="input-group">
+                <span class="details">Select Branches:</span><br>
+                <input type="radio" name="branch">  <h3>Pokhara</h3> 
+                <input type="radio" name="branch"><h3>Shyanja</h3> 
+                <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
+              </div>-->
+          </form>
+        </div>
 </section>
-
       
 
 
