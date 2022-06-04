@@ -22,12 +22,14 @@
       </div>
 
     </div>
-    <div class="social content">
-      <a href="#"><i class="fa-solid fa-phone"> +9779876543218</i></a>
-      <a href="#"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
-      <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
-    </div>
+  
 
+  </div>
+  <div class="social content">
+    <a href="#"><i class="fa-solid fa-phone"> +9779876543218</i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
+    <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="#"><i class="fa-brands fa-twitter"> </i> Twitter</a>
   </div>
 
   <div class="map">
