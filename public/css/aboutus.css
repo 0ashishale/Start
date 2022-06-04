@@ -1,44 +1,57 @@
 .about-us{
-    
-    height: 35vw;
-    background-color: black;
-    padding-top: 50px;
-    padding-left: 13%;
-}
-.about-us .head{
-    font-size: 45px;
-    color: aliceblue;
-    font-weight: 600;
-}
-.about-us .about-text{
-    color: aliceblue;
-    padding-top: 20px;
-    height: 300px;
-    width: 500px;
-    font-size: 20px;
-    word-spacing: 5px;
+    width: 100%;
+   min-height: 100vh;
+  background-color:rgb(20, 35, 37);
    
 }
-.about-text p{
-    margin: 20px;
-    float: left;
+.title{
+    font-size: 33px;
+    text-decoration: underline;
 }
-
-.about-us .contact{
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    display: block;
     color: aliceblue;
-    top: 0;
+}
+
+.content{
+    padding-left: 15px;
+    float: left;
+    width: 55%;
+    word-spacing: 3px;
+}
+
+.content h4{
+    padding-top: 20px;
+}
+.content p{
+    padding-top: 20px;
+    margin-bottom: 35%;
+}
+
+
+.social{
+    padding-top: 3%;
+    padding-bottom: 3%;
     
+}
+
+.social a{
+    padding: 25px;
     font-size: 15px;
+    color: rgb(69, 109, 145);
+}
+
+.image-section{
     float: right;
-    
+    width: 30%;
 }
 
-.contact .fa-solid{
-    font-size: 30px;
-    padding: 15px;
-    display: inline;
+.image-section img{
+    width: 100%;
+    height: auto;
+    top: 0;
+   
 }
-
-
-
-
