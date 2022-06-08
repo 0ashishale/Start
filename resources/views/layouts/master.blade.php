@@ -29,17 +29,8 @@
 <body>
   <!-- -----------Header Section------------ -->
 
-  <section class="header ">
-   
-    <i class="fa-solid fa-bars"  onclick="showMenu()" ></i>
-    <div class="nav-bar" id="navLinks">
-      <i class="fa fa-times" onclick="hideMenu()" ></i>
-      
-      <div class="logo">
-      <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
-
+ 
   <section class="header">
-
 
     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     <div class="nav-bar" id="navLinks">
@@ -113,11 +104,12 @@
   <script src="js/lightbox-plus-jquery.js"></script>
 <script src="{{asset('js/menu.js')}}"> </script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+=======
 
   <script src="{{asset('js/menu.js')}}"> </script>
   <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
 
-
+>>>>>>> e025f44875790ce1cd14674f063b7ec788a2b30d
 </body>
 
 </html>
