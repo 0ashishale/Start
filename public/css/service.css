@@ -9,10 +9,9 @@
   }
   
   .heading{
-    padding:50px;
+    margin-top: 0px;
     font-size: 30px;
-    text-decoration-thickness: 5px;
-    font-weight: 600px;
+    font-weight: 300px;
     color: aliceblue;
     font-family:  'poppins', sans-serif;
   
