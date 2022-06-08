@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family:  'poppins', sans-serif;
     box-sizing: border-box;
+    align-items: center;
 
 }
 .reservation{
@@ -13,16 +14,21 @@
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/b.jpg') ;
     background-position: center;
     background-size: cover;
-   
-  
-  
-
-  
+     
 }
 form{
+<<<<<<< HEAD
     padding-top: 5%;
     width: 100%;
    
+=======
+    margin-top: 30px;
+   width: 90%;
+   max-width: 600px;
+   align-content: center;
+
+
+>>>>>>> 0df64fad2a9f3284ce8800389e59a2a57198b0b1
 }
 
 .input-group{
@@ -85,3 +91,4 @@ button:hover{
     font-size: large;
     transition: 0.2s;
 }
+

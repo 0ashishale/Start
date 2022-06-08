@@ -4,9 +4,11 @@
 
 <section>
 
+
 <div class="reservation">
   <a href="/reservation"><h1 class="heading">Reservation</h1></a>
          <form>
+          
            <div class="row1">
               <div class="input-group">
                 <input type="text" id="Name"required>
@@ -45,6 +47,7 @@
                 <input type="radio" name="branch"><h3>Shyanja</h3> 
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
+            
           </form>
         </div>
 </section>        

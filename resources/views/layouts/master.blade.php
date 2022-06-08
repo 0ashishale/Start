@@ -21,12 +21,15 @@
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-
+  <link rel="stylesheet" href="css/lightbox.css">
+  
+  
 </head>
 
 <body>
   <!-- -----------Header Section------------ -->
 
+ 
   <section class="header">
 
     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
@@ -97,10 +100,16 @@
     </p>
 
   </section>
+<<<<<<< HEAD
+  <script src="js/lightbox-plus-jquery.js"></script>
+<script src="{{asset('js/menu.js')}}"> </script>
+<script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+=======
 
   <script src="{{asset('js/menu.js')}}"> </script>
   <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
 
+>>>>>>> e025f44875790ce1cd14674f063b7ec788a2b30d
 </body>
 
 </html>
