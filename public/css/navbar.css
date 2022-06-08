@@ -14,7 +14,6 @@
     color: aliceblue;
 }
 
-<<<<<<< HEAD
 .nav-bar{
  
   position: fixed;
@@ -81,7 +80,7 @@
     text-align: right;
     z-index: 100;
     right: 0;
->>>>>>> e025f44875790ce1cd14674f063b7ec788a2b30d
+
 }
 
 .nav-bar ul li {
