@@ -25,7 +25,7 @@
     padding: 0;
     background-attachment: fixed;
     transition: 7s;
-    transition-delay: 1s;
+    
     animation-name: ak;
     animation-direction: alternate-reverse ;
     animation-duration: 15s;
