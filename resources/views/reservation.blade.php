@@ -3,7 +3,9 @@
 @section('event')
 
 <section>
+
 <div class="reservation">
+  <a href="/reservation"><h1 class="heading">Reservation</h1></a>
          <form>
            <div class="row1">
               <div class="input-group">

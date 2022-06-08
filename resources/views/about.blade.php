@@ -4,7 +4,7 @@
 @section('event')
 
 <section class="about-us">
-  <div class="container">
+  <div class="container ">
     <div class="content-section">
       <div class="title">
         <h1>About Us</h1>
@@ -22,7 +22,7 @@
       </div>
 
     </div>
-  
+
 
   </div>
   <div class="social content">
