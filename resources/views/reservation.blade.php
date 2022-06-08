@@ -3,8 +3,10 @@
 @section('event')
 
 <section>
-<div class="reservation">
-         <form>
+<h1 class="heading">RESERVATION TABLE</h1>
+    <form>
+         
+          <div class="reservation">
            <div class="row1">
               <div class="input-group">
                 <input type="text" id="Name"required>
