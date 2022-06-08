@@ -1,5 +1,6 @@
 
 .text-box{
+  text-shadow: 2px 3px #c76a53;
     width: 90%;
     color: rgb(147, 156, 165);
     position: absolute;
@@ -7,11 +8,16 @@
     left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    
+    
    
   }
+
+ 
   
   .text-box p{
     font-size: 3.5vw;
+   
   
   }
   
@@ -19,7 +25,7 @@
     font-size: 6vw;
     margin: 10px 0 40px;
   }
-  
+
   .hero-btn {
     
     text-decoration: none;
@@ -38,7 +44,7 @@
   
   
   .hero-btn:hover{
-    background-color: rgb(166, 179, 189);
+    background-color: rgb(244, 250, 255);
     transition: 1s;
     color: rgb(24, 26, 23);
   }

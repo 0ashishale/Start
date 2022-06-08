@@ -4,7 +4,7 @@
 @section('event')
 
 <section class="about-us">
-  <div class="container">
+  <div class="container ">
     <div class="content-section">
       <div class="title">
         <h1>About Us</h1>
@@ -22,12 +22,14 @@
       </div>
 
     </div>
-    <div class="social content">
-      <a href="#"><i class="fa-solid fa-phone"> +9779876543218</i></a>
-      <a href="#"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
-      <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
-    </div>
 
+
+  </div>
+  <div class="social content">
+    <a href="#"><i class="fa-solid fa-phone"> +9779876543218</i></a>
+    <a href="#"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
+    <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="#"><i class="fa-brands fa-twitter"> Twitter </i></a>
   </div>
 
   <div class="map">

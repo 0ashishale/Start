@@ -17,9 +17,10 @@
   <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
   <link rel="stylesheet" href="{{asset('css/service.css')}}">
   <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
-  
+
 
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="css/lightbox.css">
   
   
@@ -37,39 +38,51 @@
       <div class="logo">
       <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
 
-    </div>
+  <section class="header">
+
+
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    <div class="nav-bar" id="navLinks">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+
+      <div class="logo">
+        <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
+
+      </div>
       <ul>
 
         <li><a href="/"><i class="fa fa-home"></i>
             Home</a></li>
 
-            <li><a href="/branches"><i class="fa fa-link"></i></i>
+        <li><a href="/branches"><i class="fa fa-link"></i></i>
             Branches</a></li>
 
-        <li><a href="/about"><i class="fa fa-grav"></i>About Us</a> </li>
+        
         <li><a href="/services"><i class="fa fa-server"></i>
             Services</a></li>
         <li><a href="/gallery"><i class="fa fa-film"></i>
             Gallery</a></li>
         <li><a href="/events"><i class="fa fa-calendar"></i>
             Events</a></li>
-        <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
-      
-        <li><a href="/contact"><i class="fa fa-handshake-o"></i>Contact Us</a></li>
+        
+        <li><a href="/about"><i class="fa fa-grav"></i>About Us</a> </li>
 
+        <li><a href="/contact"><i class="fa fa-handshake-o"></i>Contact Us</a></li>
+        <li><a href="/reservation"><i class="fa fa-paper-plane"></i>Reservation</a></li>
       </ul>
-     
-      
-   
+
+
+
     </div>
   </section>
 
 
-  
- <section >
+
+  <section>
 
 
     <div class="text-box">
+
 
       <p>{{$text}}</p>
       <h1>{{$title}}</h1>
@@ -78,26 +91,33 @@
     </div>
   </section>
 
-@yield('event')
+  @yield('event')
 
 
 
   <!-- ------------------Footer-------------- -->
   <section class="footer">
-    
+
     <div class="icons"></div>
     <a href=""><i class="fa-brands fa-facebook" style="color:white"></i></a>
     <a href=""> <i class="fa-brands fa-twitter" style="color:white"></i></a>
     <a href=""><i class="fa-brands fa-linkedin" style="color:white"></i></a>
     <a href=""><i class="fa-brands fa-instagram" style="color:white"></i></a>
-  
+
     <p id="bholenath">© 2022 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH.
 
     </p>
+
   </section>
+<<<<<<< HEAD
   <script src="js/lightbox-plus-jquery.js"></script>
 <script src="{{asset('js/menu.js')}}"> </script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+
+  <script src="{{asset('js/menu.js')}}"> </script>
+  <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
