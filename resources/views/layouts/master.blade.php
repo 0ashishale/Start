@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   
 </head>
@@ -33,7 +34,7 @@
   <section class="header">
 
     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-    <div class="nav-bar" id="navLinks">
+    <div class="nav-bar" id="navLinks" >
       <i class="fa fa-times" onclick="hideMenu()"></i>
 
       <div class="logo">
@@ -72,7 +73,7 @@
   <section>
 
 
-    <div class="text-box">
+    <div class="text-box" data-aos="zoon-out" data-aos-duration="1000">
 
 
       <p>{{$text}}</p>
@@ -87,7 +88,7 @@
 
 
   <!-- ------------------Footer-------------- -->
-  <section class="footer">
+  <section class="footer" >
 
     <div class="icons"></div>
     <a href=""><i class="fa-brands fa-facebook" style="color:white"></i></a>
@@ -100,16 +101,13 @@
     </p>
 
   </section>
-<<<<<<< HEAD
   <script src="js/lightbox-plus-jquery.js"></script>
 <script src="{{asset('js/menu.js')}}"> </script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
-=======
-
-  <script src="{{asset('js/menu.js')}}"> </script>
-  <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
-
->>>>>>> e025f44875790ce1cd14674f063b7ec788a2b30d
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

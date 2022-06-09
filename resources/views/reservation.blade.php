@@ -5,9 +5,10 @@
 <section>
 
 
-<div class="reservation">
+<div class="reservation" >
   <a href="/reservation"><h1 class="heading">Reservation</h1></a>
          <form>
+           <div data-aos="zoom-in-up" data-aos-duration="1000">
           
            <div class="row1">
               <div class="input-group">
@@ -47,9 +48,9 @@
                 <input type="radio" name="branch"><h3>Shyanja</h3> 
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
-            
+           </div> 
           </form>
-        </div>
+ </div>
 </section>        
 
 @endsection()

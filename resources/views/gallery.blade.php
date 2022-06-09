@@ -7,7 +7,7 @@
 <section class="gallery">
 
         <h1 class="heading">GALLERY</h1>
-        <div class="photos">
+        <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="images/a.jpg"data-lightbox="models" data-title="caption1">
            <img src="images/a.jpg" alt="">
