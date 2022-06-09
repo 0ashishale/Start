@@ -17,7 +17,7 @@
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgba(139, 97, 97, 0.1), rgba(0, 0, 0, 0.1)),
         url("../images/background.jpg");
     background-size: cover;
     background-position: center;
@@ -25,11 +25,11 @@
     margin: 0;
     padding: 0;
     background-attachment: fixed;
-    transition: 7s;
+    transition: 20s;
     
     animation-name: ak;
     animation-direction: alternate-reverse ;
-    animation-duration: 15s;
+    animation-duration: 25s;
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-play-state: running;
@@ -83,7 +83,11 @@
 }
 .nav-bar ul li a:active {
     color: rgb(158, 240, 76);
+  
     
+}
+.nav-bar ul li.active{
+    color: rgb(179, 100, 64);
 }
 
 .nav-bar ul li::after {

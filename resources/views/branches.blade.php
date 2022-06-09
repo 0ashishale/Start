@@ -1,33 +1,48 @@
 @extends('layouts.master')
 @section('event')
 
-<section class="book-table">
+<section class="branch">
+  <div class="heading">
+    <b ><a href="/branch" style="color:white;">BRANCHES</a></b>
+  </div>
+  <div class="branches">
+    <div class="branch1">
+      <div class="text">
+        <a href="">
+          <h1>Branch Name</h1>
+        </a>
+
+        <p>Branch Address</p>
+      </div>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
+
+    </div>
+
+    <div class="branch2">
+      <div class="text">
+        <a href="">
+          <h1>Branch_Name2</h1>
+        </a>
+        <p>Branch Address</p>
+      </div>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
+
+    </div>
+
+    <div class="branch3">
+      <div class="text">
+        <a href="">
+          <h1>Branch_Name3</h1>
+        </a>
+
+        <p>Branch Address</p>
+      </div>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
+
+    </div>
+  </div>
   
-    <b><a href="#" class="heading">BRANCHES</a> </b><br />
-    <div class="booktable-row">
-      <img src="{{ asset('images/d.jpg') }}" alt="">
-      <h1>Branch-1</h1>
-      <p>POKHARA</p>
 
-      <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-    </div>
-
-    <div class="booktable-row">
-      <img src="{{ asset('images/table2.jpg') }}" alt="">
-      <h1>Branch-2</h1>
-      <p>SHYANJA </p>
-
-      <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-    </div>
-
-    <div class="booktable-row">
-      <img src="{{ asset('images/e.jpg') }}" alt="">
-      <h1>BRANCH-3</h1>
-      <p>Baglung</p>
-
-      <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-    </div>
- 
 </section>
 
 

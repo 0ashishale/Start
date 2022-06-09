@@ -1,13 +1,14 @@
 
 .text-box{
-  text-shadow: 2px 3px #c76a53;
+  text-shadow: 3px 5px #5c423c;
     width: 90%;
-    color: rgb(147, 156, 165);
+    color: rgb(101, 173, 105);
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    opacity: 0.8;
     
     
    
@@ -36,6 +37,7 @@
     background: transparent;
     position: relative;
     cursor: pointer;
+    width: 300px;
     
     
     

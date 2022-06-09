@@ -37,6 +37,8 @@ body.lb-disable-scrolling {
 
 .lightbox a img {
   border: none;
+  height: 600px;
+  width: 900px;
 }
 
 .lb-outerContainer {

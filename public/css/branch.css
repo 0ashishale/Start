@@ -1,20 +1,72 @@
 @import url('http://fonts.googleapis.com.css?family=Oswald:400,700');
-.branch
-{
+
+.branch{
   margin: 0;
-  padding: 0;
+ 
+  background-color: rgb(48, 55, 85);
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
-  display: flex;
-  margin-top: 180px;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  padding-bottom: 3%;
 
+ 
+
+}
+
+.branches
+{
+text-align: center;
+display: flex;
+justify-content: space-around;
 
 
 }
-.branch ul{
+
+.text{
+ padding-top: 40%;
+ color: white;
+ 
+ 
+}
+
+
+
+
+.text p{
+  padding-top: 15px;
+  margin-bottom: 40%;
+}
+
+.text a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+
+.branch1{
+  background-image: url("/images/2.webp");
+  border-radius: 20px;
+  min-height: 67vh;
+  width: 50vh;
+
+
+}
+
+.branch2{
+  background-image: url("/images/5.jpeg");
+  border-radius: 20px;
+  min-height: 67vh;
+  width: 50vh;
+}
+
+.branch3{
+  background-image: url("/images/3.webp");
+  min-height: 67vh;
+  border-radius: 20px;
+  width: 50vh;
+}
+
+/* .branch ul{
   transform:skew(-15deg) ;
   position: relative;
 }
@@ -85,4 +137,4 @@ transition: 0.5s;
   transform: translateX(50px);
 
 
-}
+} */
