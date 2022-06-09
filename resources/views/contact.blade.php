@@ -2,7 +2,7 @@
 @section('event')
 
 <section>
-  <div class="reservation " data-aos="fade-in" data-aos-duration="1000">
+  <div class="reservation " data-aos="zoom-in-up" data-aos-duration="1000">
    <form>
       <div class="row1">
         <div class="input-group">

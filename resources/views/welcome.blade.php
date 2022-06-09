@@ -2,7 +2,7 @@
 @section('event')
 
 <section class="book-table"  >
- <div data-aos="fade-up">
+ <div data-aos="zoom-in-up" data-aos-duration="1000">
   
   <b><a href="#" class="heading">BRANCHES</a> </b><br />
   <div class="booktable-row">
@@ -37,7 +37,7 @@
 
 
 <section class="book-table"  >
- <div data-aos="fade-in">
+ <div data-aos="zoom-in-up" data-aos-duration="1000">
 
   <b><a href="#" class="heading">EVENTS</a> </b><br />
   <div class="booktable-row">
@@ -70,8 +70,8 @@
 
 <!-- ---------------Services Section-------------- -->
 
-<section class="services"  data-aos="fade-in">
- <div data-aos="fade-in">
+<section class="services" >
+ <div  data-aos="zoom-in-up" data-aos-duration="1000">
 
   <b><a href="#" class="heading">OUR SERVICES</a> </b><br />
   <div class="services-row"  data-aos="fade-right">
@@ -114,9 +114,9 @@
 
 <!-- -------------Gallery Section--------- -->
 <section class="gallery">
-      <div data-aos="zoom-in">
+      <div  data-aos="zoom-in-up" data-aos-duration="1000">
         <h1 class="heading">GALLERY</h1>
-        <div class="photos" data-aos="fade-in" data-aos-duration="1000">
+        <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/a.jpg') }}"data-lightbox="models" data-title="caption1">
            <img src="{{ asset('images/a.jpg') }}" alt="">
@@ -152,9 +152,10 @@
 
 <!---reservation table-->
 <section>
-      <div class="reservation" data-aos="fade-in" data-aos-duration="1000">
+      <div class="reservation" >
         <b><a href="/reservation"  class="heading">RESERVATION TABLE</a> </b>
          <form>
+           <div data-aos="zoom-in-up" data-aos-duration="1000">
            <div class="row1">
               <div class="input-group">
                 <input type="text" id="Name"required>
@@ -193,6 +194,7 @@
                 <input type="radio" name="branch"><h3>Shyanja</h3> 
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
+              </div>
           </form>
         </div>
 </section>
@@ -200,7 +202,7 @@
 
 <!-- -----------------about us--------- -->
 <section class="about-us">
-  <div class="container " data-aos="fade-left" data-aos-duration="1000">
+  <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
       <div class="title">
         <h1>About Us</h1>

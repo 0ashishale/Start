@@ -2,7 +2,7 @@
 @section('event')
 
 <section class="book-table" >
-  <div data-aos="fade-right" data-aos-duration="1000">
+  <div data-aos="zoom-in-up" data-aos-duration="1000">
     <b><a href="#" class="heading">BRANCHES</a> </b><br />
     <div class="booktable-row">
       <img src="{{ asset('images/d.jpg') }}" alt="">

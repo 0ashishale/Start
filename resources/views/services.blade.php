@@ -14,7 +14,7 @@
                   <p>Need a great place to arrange an event <br /> for your business family? You are welcome.</p>
             </div>
 
-            <div class="services-row" data-aos="fade-right" data-aos-duration="1000">
+            <div class="services-row" data-aos="zoom-in-up" data-aos-duration="1000">
                   <a href="">BRANDED EVENTS </a> <br /> <br />
                   <p>We will increase your brand awareness with<br /> our special service for big companies.</p>
             </div>
@@ -24,7 +24,7 @@
                   <p>You will remember your party forever thanks <br /> to our professional photographer.</p>
             </div>
 
-            <div class="services-row" data-aos="fade-right" data-aos-duration="1000">
+            <div class="services-row" data-aos="zoom-in-up" data-aos-duration="1000">
                   <a href="">HEN PARTIES</a> <br /> <br />
                   <p>Feel the magic of dance floor with your <br /> friends before it is not too late.</p>
             </div>
@@ -36,7 +36,7 @@
 
             </div>
 
-            <div class="services-row" data-aos="fade-right" data-aos-duration="1000">
+            <div class="services-row" data-aos="zoom-in-up" data-aos-duration="1000">
                   <a href="#">VIP SERVICES</a> <br /> <br />
                   <p>Premium services for special guests. <br /> Available only for loyal clients.</p>
             </div>

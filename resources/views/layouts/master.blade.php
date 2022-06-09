@@ -73,7 +73,7 @@
   <section>
 
 
-    <div class="text-box" data-aos="zoon-out" data-aos-duration="1000">
+    <div class="text-box" data-aos="zoon-in" data-aos-duration="1000">
 
 
       <p>{{$text}}</p>
