@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('event')
 
+
 <!-- ---------branch section--------- -->
 
 <section class="branch">
@@ -49,42 +50,16 @@
 
 
 
-<!-- -------------book table--------- -->
-<!--
-<section class="book-table">
-  
-  <b><a href="#" class="heading">BRANCHES</a> </b><br />
-  <div class="booktable-row">
-    <img src="{{ asset('images/d.jpg') }}" alt="">
-    <h1>Branch-1</h1>
-    <p>POKHARA</p>
 
-    <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-  </div>
 
-  <div class="booktable-row">
-    <img src="{{ asset('images/table2.jpg') }}" alt="">
-    <h1>Branch-2</h1>
-    <p>SHYANJA </p>
-
-    <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-  </div>
-
-  <div class="booktable-row">
-    <img src="{{ asset('images/e.jpg') }}" alt="">
-    <h1>BRANCH-3</h1>
-    <p>Baglung</p>
-
-    <a class="hero-btn" href="{{asset('/reservation')}}">Reservation</a>
-  </div>
-
-</section> -->
+ 
 
 
 <!-- ---------------Content Section------------- -->
 
 
-<section class="book-table">
+<section class="book-table"  >
+ <div data-aos="zoom-in-up" data-aos-duration="1000">
 
   <b><a href="#" class="heading">EVENTS</a> </b><br />
   <div class="booktable-row">
@@ -111,45 +86,48 @@
     <a class="hero-btn" href="#"> Book A Table</a>
   </div>
 
+ </div>
+
 </section>
 
 <!-- ---------------Services Section-------------- -->
 
-<section class="services">
+<section class="services" >
+ <div  data-aos="zoom-in-up" data-aos-duration="1000">
 
   <b><a href="#" class="heading">OUR SERVICES</a> </b><br />
-  <div class="services-row">
+  <div class="services-row"  data-aos="fade-right">
     <a href="">CORPORATE EVENTS</a> <br /> <br />
     <p>Need a great place to arrange an event <br /> for your business family? You are welcome.</p>
   </div>
 
-  <div class="services-row">
+  <div class="services-row"  data-aos="fade-in">
     <a href="">BRANDED EVENTS </a> <br /> <br />
     <p>We will increase your brand awareness with<br /> our special service for big companies.</p>
   </div>
 
-  <div class="services-row">
+  <div class="services-row"  data-aos="fade-up">
     <a href="">COMMERICIAL SHOOTS</a> <br /> <br />
     <p>You will remember your party forever thanks <br /> to our professional photographer.</p>
   </div>
 
-  <div class="services-row">
+  <div class="services-row"  data-aos="fade-in">
     <a href="">HEN PARTIES</a> <br /> <br />
     <p>Feel the magic of dance floor with your <br /> friends before it is not too late.</p>
   </div>
 
-  <div class="services-row">
+  <div class="services-row"  data-aos="fade-up">
     <a href=""> BIRTHDAY PARTIES </a> <br /> <br />
     <p>Happy birthday! Celebrate in our club <br /> with special discounts!
 
     </p>
   </div>
 
-  <div class="services-row">
+  <div class="services-row" data-aos="fade-left">
     <a href="#">VIP SERVICES</a> <br /> <br />
     <p>Premium services for special guests. <br /> Available only for loyal clients.</p>
   </div>
-
+ </div>
 
 </section>
 
@@ -157,17 +135,18 @@
 
 
 <!-- -------------Gallery Section--------- -->
-      <section class="gallery">
+<section class="gallery">
+      <div  data-aos="zoom-in-up" data-aos-duration="1000">
         <h1 class="heading">GALLERY</h1>
-        <div class="photos">
+        <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/a.jpg') }}"data-lightbox="models" data-title="caption1">
            <img src="{{ asset('images/a.jpg') }}" alt="">
-          </a>
-          <a href="images/b.jpg"data-lightbox="models" data-title="caption2">
+           </a>
+           <a href="images/b.jpg"data-lightbox="models" data-title="caption2">
             <img src="images/b.jpg" alt="">
            </a>
-           <a href="images/c.jpg"data-lightbox="models" data-title="caption3">
+            <a href="images/c.jpg"data-lightbox="models" data-title="caption3">
             <img src="images/c.jpg" alt="">
            </a>
            <a href="images/d.jpg"data-lightbox="models" data-title="caption4">
@@ -188,16 +167,17 @@
            <a href="images/background.jpg"data-lightbox="models" data-title="caption9">
             <img src="images/background.jpg" alt="">
            </a>
+         </div>
         </div>
-         
        </div>
-=
+</section>
 
 <!---reservation table-->
 <section>
-      <div class="reservation">
+      <div class="reservation" >
         <b><a href="/reservation"  class="heading">RESERVATION TABLE</a> </b>
          <form>
+           <div data-aos="zoom-in-up" data-aos-duration="1000">
            <div class="row1">
               <div class="input-group">
                 <input type="text" id="Name"required>
@@ -236,6 +216,7 @@
                 <input type="radio" name="branch"><h3>Shyanja</h3> 
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
+              </div>
           </form>
         </div>
 </section>
@@ -243,7 +224,7 @@
 
 <!-- -----------------about us--------- -->
 <section class="about-us">
-  <div class="container ">
+  <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
       <div class="title">
         <h1>About Us</h1>

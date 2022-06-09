@@ -2,8 +2,8 @@
 @section('event')
 
 <section>
-  <div class="reservation ">
-   
+  <div class="reservation " data-aos="zoom-in-up" data-aos-duration="1000">
+   <form>
       <div class="row1">
         <div class="input-group">
           <input type="text" id="Name" required>
@@ -28,6 +28,6 @@
       </div>
 
     </form>
-
+  </div>
 </section>
 @endsection()

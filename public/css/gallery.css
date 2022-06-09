@@ -3,7 +3,8 @@
   margin: 0;
   align-items: center;
   padding: 0;
-  background-color:rgb(20, 11, 49,0.8);
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/a.jpg') ;
+  background-size: cover;
 }
 .gallery.photos{
   width: 100%;
