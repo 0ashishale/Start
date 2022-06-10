@@ -10,7 +10,7 @@ function hideMenu() {
 window.onscroll = function () {
     scrollFunction();
 };
-
+// ----------change navbar size--------------
 function scrollFunction() {
     if (
         document.body.scrollTop > 50 ||

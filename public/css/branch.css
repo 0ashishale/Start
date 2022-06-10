@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
   padding-bottom: 3%;
+  
 
  
 
@@ -16,24 +17,33 @@
 {
 text-align: center;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+
+
+
+
 
 
 }
 
 .text{
- padding-top: 40%;
+ padding-top: 28%;
  color: white;
  
  
+}
+
+.text:hover{
+ 
+  zoom: 105%;
 }
 
 
 
 
 .text p{
-  padding-top: 15px;
-  margin-bottom: 40%;
+  padding: 30%;
+ 
 }
 
 .text a{

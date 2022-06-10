@@ -31,6 +31,7 @@
       <a class="hero-btn" href="#"> Book A Table</a>
     </div>
  
+
 </section>
 
 @endsection()
