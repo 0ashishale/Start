@@ -7,8 +7,9 @@
    
 }
 .title{
-    font-size: 33px;
+    font-size: 5vh;
     text-decoration: underline;
+    text-decoration-thickness:2px ;
 }
 .container{
     width: 80%;

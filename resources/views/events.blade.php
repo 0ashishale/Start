@@ -6,7 +6,9 @@
 
 <section class="book-table">
 
-    <b><a href="#" class="heading">EVENTS</a> </b><br />
+  <div class="heading">
+    <b ><a href="/events" style="color:white;" >EVENTS</a></b>
+  </div>
     <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
       <img src="{{ asset('images/e.jpg') }}" alt="">
       <h1>NON STOP PARTY</h1>

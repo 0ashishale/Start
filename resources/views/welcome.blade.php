@@ -3,11 +3,10 @@
 
 
 <!-- ---------branch section--------- -->
-
 <section class="branch" >
-  <div class="container" data-aos="zoom-in-up" data-aos-duration="1000" >
+  <div class="" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b><a href="/branch" style="color:white">BRANCHES</a></b>
+    <b ><a href="/branch" style="color:white;" >BRANCHES</a></b>
   </div>
   <div class="branches">
     <div class="branch1">
@@ -52,42 +51,41 @@
 
 
 
-
  
 
 
 <!-- ---------------Content Section------------- -->
 
 
-<section class="book-table"  >
- <div data-aos="zoom-in-up" data-aos-duration="1000">
+<section class="book-table">
 
-  <b><a href="#" class="heading">EVENTS</a> </b><br />
-  <div class="booktable-row">
-    <img src="{{ asset('images/a.jpg') }}" alt="">
-    <h1>NON STOP PARTY</h1>
-    <p>Enjoy the event throughout the entire night. </p>
-
-    <a class="hero-btn" href="#"> Book A Table</a>
+  <div class="heading">
+    <b ><a href="/events" style="color:white;" >EVENTS</a></b>
   </div>
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/e.jpg') }}" alt="">
+      <h1>NON STOP PARTY</h1>
+      <p>Enjoy the event throughout the entire night. </p>
 
-  <div class="booktable-row">
-    <img src="{{ asset('images/b.jpg') }}" alt="">
-    <h1>SPECIAL PROGRAM</h1>
-    <p>Enjoy the special progaram every night. </p>
+      <a class="hero-btn" href="#"> Book A Table</a>
+    </div>
 
-    <a class="hero-btn" href="#"> Book A Table</a>
-  </div>
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/table2.jpg') }}" alt="">
+      <h1>SPECIAL PROGRAM</h1>
+      <p>Enjoy the special progaram every night. </p>
 
-  <div class="booktable-row">
-    <img src="{{ asset('images/img.jpg') }}" alt="">
-    <h1>TOP RESIDENCE</h1>
-    <p>Enjoy the event throughout the entire night </p>
+      <a class="hero-btn" href="#"> Book A Table</a>
+    </div>
 
-    <a class="hero-btn" href="#"> Book A Table</a>
-  </div>
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/c.jpg') }}" alt="">
+      <h1>TOP RESIDENCE</h1>
+      <p>Enjoy the event throughout the entire night </p>
 
- </div>
+      <a class="hero-btn" href="#"> Book A Table</a>
+    </div>
+ 
 
 </section>
 
@@ -138,7 +136,9 @@
 <!-- -------------Gallery Section--------- -->
 <section class="gallery">
       <div  data-aos="zoom-in-up" data-aos-duration="1000">
-        <h1 class="heading">GALLERY</h1>
+      <div class="heading">
+    <b ><a href="/branch" style="color:white;" >GALLERY</a></b>
+  </div>
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/a.jpg') }}"data-lightbox="models" data-title="caption1">

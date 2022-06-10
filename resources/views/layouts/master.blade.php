@@ -60,7 +60,7 @@
         <li><a href="/about"><i class="fa fa-grav"></i> About Us</a> </li>
 
         <li><a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us</a></li>
-        <li style="border:0.5px solid white; padding:3px;"><a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
+        <li style="border:0.5px solid white; padding:3px 5px;" ><a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
       </ul>
 
 
