@@ -36,9 +36,9 @@
 
 .heading {
     font-family: 'Nanum Gothic Coding';
-    padding: 3%;
+    padding: 5%;
     font-size: 4vh;
-    text-decoration-thickness: 3px;
+    text-decoration: none;
     font-weight: 600px;
     color: aliceblue;
     text-align: center;

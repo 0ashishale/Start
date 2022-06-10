@@ -6,6 +6,7 @@
     text-align: center;
     color: aliceblue;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .services-row {
