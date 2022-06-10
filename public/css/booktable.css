@@ -6,13 +6,17 @@
     width: 100%;
     margin: auto;
     text-align: center;
+
     padding-top: 100px;
     font-family: Copperplate, Papyrus, fantasy;
+
+    padding-top: 3%;
+
 
   }
   
   .booktable-row{
-    padding-top: 40px;
+    padding-top: 3%;
     display: inline-table;
     text-align: center;
     margin: 3%;

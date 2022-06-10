@@ -29,15 +29,21 @@
   }
   
 
+
+
 /* -----------Header Section----------------- */
-.heading a{
-    font-family: Garamond, serif;
-    padding: 50px;
-    font-size: 30px;
-    text-decoration-thickness: 5px;
+
+
+
+.heading {
+    padding: 3%;
+    font-size: 4vh;
+    text-decoration-thickness: 3px;
+
     font-weight: 600px;
     color: aliceblue;
     text-align: center;
+   
 }
 .header {
     width: 100%;
@@ -120,7 +126,7 @@
 
 .nav-bar ul li::after {
     content: "";
-    height: 3px;
+    height: 1px;
     width: 0;
     background-color: chartreuse;
     position: absolute;
