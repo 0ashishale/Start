@@ -57,24 +57,11 @@
 <!-- ---------------Content Section------------- -->
 
 
-<<<<<<< HEAD
-<section class="book-table"  >
- <div data-aos="zoom-in-up" data-aos-duration="1000">
-<div class="heading">
-  <b><a href="#" >EVENTS</a> </b>
-</div>
-  <div class="booktable-row">
-    <img src="{{ asset('images/a.jpg') }}" alt="">
-    <h1>NON STOP PARTY</h1>
-    <p>Enjoy the event throughout the entire night. </p>
-
-    <a class="hero-btn" href="#"> Book A Table</a>
-=======
 <section class="book-table">
 
   <div class="heading">
     <b ><a href="/events" style="color:white;" >EVENTS</a></b>
->>>>>>> fe6f0a15f47d9254ef2627d9c134b3b5f1655e8d
+
   </div>
     <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
       <img src="{{ asset('images/e.jpg') }}" alt="">
@@ -152,39 +139,39 @@
 <section class="gallery">
       <div  data-aos="zoom-in-up" data-aos-duration="1000">
 
-=======
+
       <div class="heading">
     <b ><a href="/branch" style="color:white;" >GALLERY</a></b>
   </div>
 
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
-           <a href="{{ asset('images/a.jpg') }}"data-lightbox="models" data-title="caption1">
-           <img src="{{ asset('images/a.jpg') }}" alt="">
+           <a href="{{ asset('images/g.jpg') }}"data-lightbox="models" data-title="caption1">
+           <img src="{{ asset('images/g.jpg') }}" alt="">
            </a>
-           <a href="images/b.jpg"data-lightbox="models" data-title="caption2">
-            <img src="images/b.jpg" alt="">
+           <a href="images/h.jpg"data-lightbox="models" data-title="caption2">
+            <img src="images/h.jpg" alt="">
            </a>
-            <a href="images/c.jpg"data-lightbox="models" data-title="caption3">
-            <img src="images/c.jpg" alt="">
+            <a href="images/i.jpg"data-lightbox="models" data-title="caption3">
+            <img src="images/i.jpg" alt="">
            </a>
-           <a href="images/d.jpg"data-lightbox="models" data-title="caption4">
-            <img src="images/d.jpg" alt="">
+           <a href="images/j.jpg"data-lightbox="models" data-title="caption4">
+            <img src="images/j.jpg" alt="">
            </a>
-           <a href="images/e.jpg"data-lightbox="models" data-title="caption5">
-            <img src="images/e.jpg" alt="">
+           <a href="images/k.jpg"data-lightbox="models" data-title="caption5">
+            <img src="images/k.jpg" alt="">
            </a>
-           <a href="images/img.jpg"data-lightbox="models" data-title="caption6">
-            <img src="images/img.jpg" alt="">
+           <a href="images/l.jpg"data-lightbox="models" data-title="caption6">
+            <img src="images/l.jpg" alt="">
            </a>
-           <a href="images/reservation.jpg"data-lightbox="models" data-title="caption7">
-            <img src="images/reservation.jpg" alt="">
+           <a href="images/x.jpg"data-lightbox="models" data-title="caption7">
+            <img src="images/x.jpg" alt="">
            </a>
-           <a href="images/table1.jpg"data-lightbox="models" data-title="caption8">
-            <img src="images/table1.jpg" alt="">
+           <a href="images/y.jpg"data-lightbox="models" data-title="caption8">
+            <img src="images/y.jpg" alt="">
            </a>
-           <a href="images/background.jpg"data-lightbox="models" data-title="caption9">
-            <img src="images/background.jpg" alt="">
+           <a href="images/z.jpg"data-lightbox="models" data-title="caption9">
+            <img src="images/z.jpg" alt="">
            </a>
          </div>
         </div>
@@ -194,8 +181,8 @@
 <!---reservation table-->
 <section>
       <div class="reservation" >
-        <div class="heading">
-        <b><a href="/reservation"  >RESERVATION TABLE</a> </b>
+      <div class="heading">
+        <b><a href="/reservation" style="color:white;">RESERVATION TABLE</a> </b>
       </div>
          <form>
            <div data-aos="zoom-in-up" data-aos-duration="1000">
@@ -248,7 +235,7 @@
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
       <div class="heading">
-        <a href=""><h1>About Us</h1></a>
+        <a href="/aboutus" style="color:white;"><h1>About Us</h1></a>
       </div>
 
       <div class="content">
@@ -267,10 +254,10 @@
 
   </div>
   <div class="social content">
-    <a href="#"><i class="fa-solid fa-phone"> +9779876543218</i></a>
-    <a href="#"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
-    <a href="#"><i class="fa-brands fa-instagram"> Instagram</i></a>
-    <a href="#"><i class="fa-brands fa-twitter"> Twitter </i></a>
+    <a href="#" style="color:white"><i class="fa-solid fa-phone"> +9779876543218</i></a>
+    <a href="#" style="color:white"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
+    <a href="#" style="color:white"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
   </div>
 
 

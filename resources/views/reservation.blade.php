@@ -2,14 +2,14 @@
 
 @section('event')
 
+
 <section>
-
-
-<div class="reservation" >
-  <a href="/reservation"><h1 class="heading">Reservation</h1></a>
+      <div class="reservation" >
+      <div class="heading">
+        <b><a href="/reservation" style="color:white;">RESERVATION TABLE</a> </b>
+      </div>
          <form>
            <div data-aos="zoom-in-up" data-aos-duration="1000">
-          
            <div class="row1">
               <div class="input-group">
                 <input type="text" id="Name"required>
@@ -48,9 +48,9 @@
                 <input type="radio" name="branch"><h3>Shyanja</h3> 
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
-           </div> 
+              </div>
           </form>
- </div>
-</section>        
+        </div>
+</section>     
 
 @endsection()

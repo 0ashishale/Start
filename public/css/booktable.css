@@ -1,14 +1,15 @@
 
 .book-table{
   /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ),  ; */
-  background-color: rgb(48, 55, 85);
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/background.jpg') ;
   background-attachment: fixed;
+  background-size: cover;
     width: 100%;
     margin: auto;
     text-align: center;
 
     padding-top: 100px;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: 'Nanum Gothic Coding';
 
     padding-top: 3%;
 
@@ -35,7 +36,7 @@
     font-size: 30px;
     color: rgb(206, 219, 231);
     font-weight: 600;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: 'Nanum Gothic Coding';
   }
   
   .booktable-row p{
@@ -45,6 +46,6 @@
     line-height: 20px;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: 'Nanum Gothic Coding';
   }
   

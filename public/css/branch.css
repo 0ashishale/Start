@@ -3,9 +3,10 @@
 .branch{
   margin: 0;
  
-  background-color: rgb(48, 55, 85);
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/a.jpg') ;
+  background-size: cover;
   box-sizing: border-box;
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family: 'Nanum Gothic Coding';
   padding-bottom: 3%;
   
 

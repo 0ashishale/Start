@@ -1,5 +1,5 @@
 .services {
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family: 'Nanum Gothic Coding';
     padding: 4%;
     width: 100%;
     background-image: url("/images/table2.jpg");
@@ -25,6 +25,7 @@
     text-decoration-thickness: 2px;
     margin: 2%;
     color: aliceblue;
+    font-family: 'Codystar';
 }
 
 @keyframes slide-in-top {

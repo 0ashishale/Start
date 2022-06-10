@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="{{asset('css/service.css')}}">
   <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
 
-
+  <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/lightbox.css">
