@@ -5,7 +5,7 @@
   <div class="heading">
     <b><a href="/branch" style="color:white;">BRANCHES</a></b>
   </div>
-  <div class="branches">
+  <div class="branches" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="branch1">
       <div class="text">
         <a href="">
