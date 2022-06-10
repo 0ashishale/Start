@@ -1,3 +1,4 @@
+
 .book-table{
   /* background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ),  ; */
   background-color: rgb(48, 55, 85);
@@ -6,6 +7,7 @@
     margin: auto;
     text-align: center;
     padding-top: 100px;
+
   }
   
   .booktable-row{
@@ -13,7 +15,7 @@
     display: inline-table;
     text-align: center;
     margin: 3%;
-    
+   
     
   
   }
@@ -28,6 +30,7 @@
     font-size: 30px;
     color: rgb(206, 219, 231);
     font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   .booktable-row p{
@@ -37,5 +40,6 @@
     line-height: 20px;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   

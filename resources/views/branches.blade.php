@@ -1,9 +1,10 @@
 @extends('layouts.master')
 @section('event')
 
-<section class="branch">
+<section class="branch" >
+  <div class="container" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b><a href="/branch" style="color:white;">BRANCHES</a></b>
+    <b><a href="/branch">Branches</a></b>
   </div>
   <div class="branches">
     <div class="branch1">
@@ -14,35 +15,34 @@
 
         <p>Branch Address</p>
       </div>
-      <a href="url('/reservation')"><button>Reservation</button></a>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
 
-
-
-      <div class="branch2">
-        <div class="text">
-          <a href="">
-            <h1>Branch_Name2</h1>
-          </a>
-          <p>Branch Address</p>
-        </div>
-        <a href="url('/reservation')"><button>Reservation</button></a>
-
-      </div>
-
-      <div class="branch3">
-        <div class="text">
-          <a href="">
-            <h1>Branch_Name3</h1>
-          </a>
-
-          <p>Branch Address</p>
-        </div>
-        <a href="url('/reservation')"><button>Reservation</button></a>
-
-      </div>
     </div>
 
+    <div class="branch2">
+      <div class="text">
+        <a href="">
+          <h1>Branch_Name2</h1>
+        </a>
+        <p>Branch Address</p>
+      </div>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
 
+    </div>
+
+    <div class="branch3">
+      <div class="text">
+        <a href="">
+          <h1>Branch_Name3</h1>
+        </a>
+
+        <p>Branch Address</p>
+      </div>
+      <a href="url('/reservation')" ><button>Reservation</button></a>
+
+    </div>
+  </div>
+  
   </div>
 </section>
 

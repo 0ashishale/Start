@@ -38,7 +38,7 @@
       <i class="fa fa-times" onclick="hideMenu()"></i>
 
       <div class="logo">
-        <img src="{{asset('images/logo.png')}}" alt="" width="150" height="90">
+        <img src="{{asset('images/logo.png')}}" alt="" width="130" height="60">
 
       </div>
       <ul>
