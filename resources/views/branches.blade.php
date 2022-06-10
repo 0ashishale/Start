@@ -2,11 +2,12 @@
 @section('event')
 
 <section class="branch" >
-  <div class="container" data-aos="zoom-in-up" data-aos-duration="1000" >
+ <div data-aos="zoom-in-up" data-aos-duration="1000">
+  <div class="container"  >
   <div class="heading">
-    <b><a href="/branch">Branches</a></b>
+    <b><a href="">BRANCHES</a></b>
   </div>
-  <div class="branches" data-aos="zoom-in-up" data-aos-duration="1000">
+  <div class="branches" >
     <div class="branch1">
       <div class="text">
         <a href="">
@@ -44,6 +45,8 @@
   </div>
   
   </div>
+
+</div>
 </section>
 
 

@@ -1,9 +1,10 @@
 
 .text-box{
+  font-family: Garamond, serif;
 
-  text-shadow: 3px 5px #5c423c;
+  text-shadow: 3px 5px #0b0403;
     width: 90%;
-    color: rgb(101, 173, 105);
+    color: rgb(253, 255, 253);
     position: absolute;
     top: 50%;
     left:50%;

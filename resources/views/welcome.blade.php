@@ -61,8 +61,9 @@
 
 <section class="book-table"  >
  <div data-aos="zoom-in-up" data-aos-duration="1000">
-
-  <b><a href="#" class="heading">EVENTS</a> </b><br />
+<div class="heading">
+  <b><a href="#" >EVENTS</a> </b>
+</div>
   <div class="booktable-row">
     <img src="{{ asset('images/a.jpg') }}" alt="">
     <h1>NON STOP PARTY</h1>
@@ -95,8 +96,9 @@
 
 <section class="services" >
  <div  data-aos="zoom-in-up" data-aos-duration="1000">
-
-  <b><a href="#" class="heading">OUR SERVICES</a> </b><br />
+  <div class="heading">
+  <b><a href="#" class="heading">OUR SERVICES</a> </b>
+  </div>
   <div class="services-row"  data-aos="fade-right">
     <a href="">CORPORATE EVENTS</a> <br /> <br />
     <p>Need a great place to arrange an event <br /> for your business family? You are welcome.</p>
@@ -138,7 +140,9 @@
 <!-- -------------Gallery Section--------- -->
 <section class="gallery">
       <div  data-aos="zoom-in-up" data-aos-duration="1000">
-        <h1 class="heading">GALLERY</h1>
+        <div class="heading">
+       <a href=""><h1 >GALLERY</h1></a>
+      </div>
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/a.jpg') }}"data-lightbox="models" data-title="caption1">
@@ -176,7 +180,9 @@
 <!---reservation table-->
 <section>
       <div class="reservation" >
-        <b><a href="/reservation"  class="heading">RESERVATION TABLE</a> </b>
+        <div class="heading">
+        <b><a href="/reservation"  >RESERVATION TABLE</a> </b>
+      </div>
          <form>
            <div data-aos="zoom-in-up" data-aos-duration="1000">
            <div class="row1">
@@ -227,8 +233,8 @@
 <section class="about-us">
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
-      <div class="title">
-        <h1>About Us</h1>
+      <div class="heading">
+        <a href=""><h1>About Us</h1></a>
       </div>
 
       <div class="content">
