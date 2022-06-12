@@ -23,7 +23,7 @@
 
     <div class="branch2">
       <div class="text">
-        <a href="">
+        <a href="url('/branch2')">
           <h1>Branch_Name2</h1>
         </a>
         <p>Branch Address</p>
@@ -34,7 +34,7 @@
 
     <div class="branch3">
       <div class="text">
-        <a href="">
+        <a href="branch3">
           <h1>Branch_Name3</h1>
         </a>
 
