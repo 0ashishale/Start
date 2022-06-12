@@ -1,7 +1,7 @@
 .services {
   font-family: 'Nanum Gothic Coding';
     padding: 4%;
-    width: 100%;
+    width: auto;
     background-image: url("/images/table2.jpg");
     text-align: center;
     color: aliceblue;

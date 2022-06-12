@@ -6,13 +6,13 @@
 
   <div class="" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b><a href="/branch" style="color: white ;">BRANCHES</a></b>
+    <b><a href="/branches" style="color: white ;">BRANCHES</a></b>
 
   </div>
   <div class="branches" >
     <div class="branch1">
       <div class="text">
-        <a href="">
+        <a href="/branch1">
           <h1>Branch Name</h1>
         </a>
 
