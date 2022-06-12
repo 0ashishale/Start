@@ -12,11 +12,11 @@
   <div class="branches">
     <div class="branch1">
       <div class="text">
-        <a href="">
+        <a href="/branches/branch1">
           <h1>Branch Name</h1>
         </a>
 
-        <p>Branch Address</p>
+        <p>Pokhara</p>
       </div>
       <a href="url('/reservation')" ><button>Reservation</button></a>
 
@@ -24,10 +24,10 @@
 
     <div class="branch2">
       <div class="text">
-        <a href="">
+        <a href="/branches/branch2">
           <h1>Branch_Name2</h1>
         </a>
-        <p>Branch Address</p>
+        <p>Kathmandu</p>
       </div>
       <a href="url('/reservation')" ><button>Reservation</button></a>
 
@@ -35,8 +35,8 @@
 
     <div class="branch3">
       <div class="text">
-        <a href="">
-          <h1>Branch_Name3</h1>
+        <a href="/branches/branch3">
+          <h1>Illam</h1>
         </a>
 
         <p>Branch Address</p>
@@ -142,7 +142,7 @@
 
 
       <div class="heading">
-    <b ><a href="/branch" style="color:white;" >GALLERY</a></b>
+    <b ><a href="/gallery" style="color:white;" >GALLERY</a></b>
   </div>
 
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">

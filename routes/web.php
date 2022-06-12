@@ -20,7 +20,9 @@ Route::get('/reservation', [RouteController::class, 'reservation']);
 Route::get('/events', [RouteController::class, 'events']);
 Route::get('/gallery', [RouteController::class, 'gallery']);
 Route::get('/branches', [RouteController::class, 'branches']);
-Route::get('/branches/{{name}}', [RouteController::class, 'branch']);
+Route::get('/branches/branch1', [RouteController::class, 'branch1']);
+Route::get('/branches/branch2', [RouteController::class, 'branch2']);
+Route::get('/branches/branch3', [RouteController::class, 'branch3']);
 
 // Route::get('/about', [RouteController::class, 'about']);
 // Route::get('/services', [RouteController::class, 'services']);
