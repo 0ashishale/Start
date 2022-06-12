@@ -10,35 +10,41 @@
   </div>
   <div class="branches" >
     <div class="branch1">
-      <div class="text">
-        <a href="/branch1">
-          <h1>Branch Name</h1>
+      <div class="text" onclick="location.href='/branches/branch1'">
+        <a href="/branches/branch1">
+          <h1>Pokhara Club</h1>
         </a>
 
-        <p>Branch Address</p>
+        <p>Pokhara </p>
       </div>
       <a href="url('/reservation')" ><button>Reservation</button></a>
 
     </div>
 
     <div class="branch2">
-      <div class="text">
-        <a href="url('/branch2')">
-          <h1>Branch_Name2</h1>
+
+
+      <div class="text" onclick="location.href='/branches/branch2'">
+        <a href="/branches/branch2">
+          <h1>kathmandu Club</h1>
+
         </a>
-        <p>Branch Address</p>
+        <p>Kathmandu</p>
       </div>
       <a href="url('/reservation')" ><button>Reservation</button></a>
 
     </div>
 
     <div class="branch3">
-      <div class="text">
-        <a href="branch3">
-          <h1>Branch_Name3</h1>
+
+
+      <div class="text" onclick="location.href='/branches/branch3'">
+        <a href="/branches/branch3">
+          <h1>Illam Club</h1>
+
         </a>
 
-        <p>Branch Address</p>
+        <p>Illam</p>
       </div>
       <a href="url('/reservation')" ><button>Reservation</button></a>
 
