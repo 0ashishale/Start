@@ -6,8 +6,8 @@
 <section class="about-us">
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
-      <div class="heading">
-        <h1>About Us</h1>
+    <div class="heading">
+        <a href="/aboutus" style="color:white;"><h1>About Us</h1></a>
       </div>
 
       <div class="content">

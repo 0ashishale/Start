@@ -1,8 +1,8 @@
 .services {
   font-family: 'Nanum Gothic Coding';
     padding: 4%;
-    width: 100%;
-    background-image: url("/images/table2.jpg");
+    
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/a.jpg') ;
     text-align: center;
     color: aliceblue;
     background-attachment: fixed;
