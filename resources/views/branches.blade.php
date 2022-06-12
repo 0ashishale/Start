@@ -11,7 +11,7 @@
   <div class="branches" >
     <div class="branch1">
       <div class="text">
-        <a href="">
+        <a href="/branch1">
           <h1>Branch Name</h1>
         </a>
 

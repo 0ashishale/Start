@@ -35,4 +35,14 @@ class RouteController extends Controller
         return view('branches',['text'=>'Choose your place.', 'title'=>'Branches']);
     }
    
+    function branch1(){
+        return view('branch1', ['text'=>  'Pokhara', 'title'=>'Branch 1']);
+    }
+    function branch2(){
+        return view('branch2', ['text'=>  'Kathmandu', 'title'=>'Branch 2']);
+    }
+    function branch3(){
+        return view('branch3', ['text'=>  'Illam', 'title'=>'Branch 1']);
+    }
+
 }

@@ -5,7 +5,8 @@
 }
 
 .hero-btn {
-    font-family: 'Nanum Gothic Coding';
+    
+    text-decoration: none;
     color: azure;
     border: 1px solid rgb(153, 131, 131);
     padding: 3px 30px;
@@ -14,8 +15,8 @@
     position: relative;
     cursor: pointer;
     width: 300px;
-    text-decoration: none;
-   
+    font-family: Courier New, monospace;
+    
     
     
   }
@@ -31,14 +32,10 @@
 
 
 /* -----------Header Section----------------- */
-
-
-
 .heading {
-    font-family: 'Nanum Gothic Coding';
-    padding: 5%;
+    padding: 3%;
     font-size: 4vh;
-    text-decoration: none;
+    text-decoration-thickness: 3px;
     font-weight: 600px;
     color: aliceblue;
     text-align: center;
@@ -101,12 +98,11 @@
 }
 
 .nav-bar ul li {
-    font-family: 'Nanum Gothic Coding';
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
-    font-size: 15px;
+    font-size: 12px;
 }
 .nav-bar ul li a {
     text-decoration: none;
