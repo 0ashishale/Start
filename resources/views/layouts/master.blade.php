@@ -96,7 +96,7 @@
     <a href=""><i class="fa-brands fa-linkedin" style="color:white"></i></a>
     <a href=""><i class="fa-brands fa-instagram" style="color:white"></i></a>
 
-    <p id="bholenath">© 2022 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH.
+    <p id="bholenath">© 2022 All Rights Reserved Terms of Use and Privacy Policy. Design by BHOLENATH <img src="{{asset('/images/Shiva.png')}}" style="height:40px; width:40px;" alt="">.
 
     </p>
 
