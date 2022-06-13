@@ -21,7 +21,7 @@
   <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="{{asset('css/lightbox.css')}}">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   
@@ -101,7 +101,7 @@
     </p>
 
   </section>
-  <script src="js/lightbox-plus-jquery.js"></script>
+  <script src="{{asset('js/lightbox-plus-jquery.js')}}"></script>
 <script src="{{asset('js/menu.js')}}"> </script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
