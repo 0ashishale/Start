@@ -6,8 +6,7 @@
 
   <div class="" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b><a href="/branches" style="color: white ;">BRANCHES</a></b>
-
+    <b ><a href="/branch" style="color:white;" >BRANCHES</a></b>
   </div>
   <div class="branches" >
     <div class="branch1">
@@ -23,9 +22,12 @@
     </div>
 
     <div class="branch2">
+
+
       <div class="text" onclick="location.href='/branches/branch2'">
         <a href="/branches/branch2">
           <h1>kathmandu Club</h1>
+
         </a>
         <p>Kathmandu</p>
       </div>
@@ -34,9 +36,12 @@
     </div>
 
     <div class="branch3">
+
+
       <div class="text" onclick="location.href='/branches/branch3'">
         <a href="/branches/branch3">
           <h1>Illam Club</h1>
+
         </a>
 
         <p>Illam</p>

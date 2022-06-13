@@ -102,7 +102,8 @@
     display: inline-block;
     margin: 0 20px;
     position: relative;
-    font-size: 12px;
+    font-family: 'Nanum Gothic Coding';
+    font-size: 15px;
 }
 .nav-bar ul li a {
     text-decoration: none;

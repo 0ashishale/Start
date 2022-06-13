@@ -8,7 +8,6 @@
 .reservation{
     padding-top: 5%;
     width: 100%;
-    height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/b.jpg') ;
     background-position: center;
     background-size: cover;

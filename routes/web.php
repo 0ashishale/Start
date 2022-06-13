@@ -24,6 +24,7 @@ Route::get('/branches/branch1', [RouteController::class, 'branch1']);
 Route::get('/branches/branch2', [RouteController::class, 'branch2']);
 Route::get('/branches/branch3', [RouteController::class, 'branch3']);
 
+
 // Route::get('/about', [RouteController::class, 'about']);
 // Route::get('/services', [RouteController::class, 'services']);
 // Route::get('/events', [RouteController::class, 'events']);

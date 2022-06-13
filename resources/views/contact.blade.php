@@ -2,8 +2,12 @@
 @section('event')
 
 <section>
-  <div class="reservation " data-aos="zoom-in-up" data-aos-duration="1000">
+  <div class="reservation " >
+  <div class="heading">
+        <b><a href="/contact" style="color:white;">RESERVATION</a> </b>
+      </div>
    <form>
+    <div data-aos="zoom-in-up" data-aos-duration="1000">
       <div class="row1">
         <div class="input-group">
           <input type="text" id="Name" required>
@@ -26,7 +30,7 @@
       <div>
         <button type="submit">Send<i class="fa fa-paper-plane"></i></button>
       </div>
-
+    </div>
     </form>
   </div>
 </section>
