@@ -4,7 +4,7 @@
 <section>
   <div class="reservation " >
   <div class="heading">
-        <b><a href="/contact" style="color:white;">RESERVATION</a> </b>
+        <b><a href="/contact" style="color:white;">contact us</a> </b>
       </div>
    <form>
     <div data-aos="zoom-in-up" data-aos-duration="1000">
@@ -31,7 +31,18 @@
         <button type="submit">Send<i class="fa fa-paper-plane"></i></button>
       </div>
     </div>
+    
     </form>
+    <div class="social content">
+    <a href="#" style="color:white"><i class="fa-solid fa-phone"></i> +9779876543218</a>
+    <a href="#" style="color:white"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
+    <a href="#" style="color:white"><i class="fa-brands fa-instagram"> Instagram</i></a>
+    <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
+   
+   
   </div>
+  </div>
+ 
 </section>
+
 @endsection()

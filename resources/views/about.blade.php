@@ -26,7 +26,7 @@
 
   </div>
   <div class="social content">
-    <a href="#" style="color:white"><i class="fa-solid fa-phone"> +9779876543218</i></a>
+    <a href="#" style="color:white"><i class="fa-solid fa-phone"></i> +9779876543218</a>
     <a href="#" style="color:white"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-instagram"> Instagram</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
