@@ -18,18 +18,15 @@
 
 .branches
 {
-padding: 7%;
+padding: 4%;
 text-align: center;
-display: flex;
-justify-content: space-between;
-
-
-
-
-
-
+display: -webkit-flex;
+margin: auto;
+justify-content: space-evenly;
 
 }
+
+
 
 .text{
  padding-top: 28%;

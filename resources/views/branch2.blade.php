@@ -1,56 +1,41 @@
 @extends('layouts.master')
+
+
 @section('event')
-<section class="book-table">
 
-  <div class="heading">
-    <b ><a href="/events" style="color:white;" >EVENTS</a></b>
-  </div>
-    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
-      <img src="{{ asset('images/e.jpg') }}" alt="">
-      <h1>NON STOP PARTY</h1>
-      <p>Enjoy the event throughout the entire night. </p>
-
-      <a class="hero-btn" href="#"> Book A Table</a>
-    </div>
-
-    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
-      <img src="{{ asset('images/table2.jpg') }}" alt="">
-      <h1>SPECIAL PROGRAM</h1>
-      <p>Enjoy the special progaram every night. </p>
-
-      <a class="hero-btn" href="#"> Book A Table</a>
-    </div>
-
-    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
-      <img src="{{ asset('images/c.jpg') }}" alt="">
-      <h1>TOP RESIDENCE</h1>
-      <p>Enjoy the event throughout the entire night </p>
-
-      <a class="hero-btn" href="#"> Book A Table</a>
-    </div>
- 
-
-</section>
-
-<section class="gallery">
+<!-- --------about-------- -->
 <section class="about-us">
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
-    <div class="heading">
-        <a href="/aboutus" style="color:white;"><h1>About Us</h1></a>
+    <div class="heading" style=" font-family: Nanum Gothic Coding;">
+       <h3>KATHMANDU CLUB</h3>
       </div>
 
+
+
       <div class="content">
+        <h4>Status : Open</h4>
         <h4>Opening Hours: 9PM-3AM</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nisi, atque sequi totam voluptas veritatis expedita dolorum praesentium ratione,
           accusamus id ad fugit, deserunt accusantium incidunt nam delectus labore qui perferendis!</p>
+       
         <a href="{{url('/reservation')}}"><button>Reservation</button></a>
       </div>
       <div class="image-section">
-        <img src="{{asset('images/logo.png')}}" alt="">
+        <div class="icon">
+        <!-- <i class="fa-solid fa-location-dot" style="size:50px"></i> -->
+       <a href="#map"><img src="{{asset('images/location.png')}}" alt="Location" style="height:65px; width:65px; "></a>
+       <span class="hover-text">Go to Map</span>
       </div>
+      <div class="address">
+         <a href="#map" style="color: white; font-size :4vh; text-decoration: none;"><h4>Thamel</h4>
+          <p>Kathmandu, Nepal</p>
+        </a> 
+     
 
+         </div>
+      </div>
     </div>
 
 
@@ -62,11 +47,51 @@
     <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
   </div>
 
-  
+
 
 </section>
 
-        <a href="" class="heading"><h1>GALLERY</h1></a>
+<!-- -----------Event Section---------- -->
+
+<section class="book-table">
+
+<div class="heading">
+    <b ><a href="/events" style="color:white;" ><h4>EVENTS<h4></a></b>
+  </div>
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/e.jpg') }}" alt="">
+      <h1>NON STOP PARTY</h1>
+      <p>Enjoy the event throughout the entire night. </p>
+
+      <a class="hero-btn" href="{{url('/reservation')}}"> Book A Table</a>
+    </div>
+
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/table2.jpg') }}" alt="">
+      <h1>SPECIAL PROGRAM</h1>
+      <p>Enjoy the special progaram every night. </p>
+
+      <a class="hero-btn" href="{{url('/reservation')}}"> Book A Table</a>
+    </div>
+
+    <div class="booktable-row" data-aos="zoom-in-up" data-aos-duration="1000">
+      <img src="{{ asset('images/c.jpg') }}" alt="">
+      <h1>TOP RESIDENCE</h1>
+      <p>Enjoy the event throughout the entire night </p>
+
+      <a class="hero-btn" href="{{url('/reservation')}}"> Book A Table</a>
+    </div>
+
+    <!-- -----------about us----------- -->
+
+</section>
+
+
+<!-- ----------gallery--------- -->
+<section class="gallery">
+<div class="heading">
+    <b ><a href="/events" style="color:white;" ><h4>GALLERY<h4></a></b>
+  </div>
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/g.jpg') }}"data-lightbox="models" data-title="caption1">
@@ -108,15 +133,19 @@
 
 
 </section>
+
+<!-- --------------branch section--------- -->
+
 <section class="branch" >
 
 
   <div class="" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b ><a href="/branch" style="color:white;" >BRANCHES</a></b>
+    <b ><a href="/events" style="color:white;" ><h4>BRANCHES<h4></a></b>
   </div>
   <div class="branches" >
-    <div class="branch1">
+
+  <div class="branch1">
       <div class="text" onclick="location.href='/branches/branch1'">
         <a href="/branches/branch1">
           <h1>Pokhara Club</h1>
@@ -124,7 +153,7 @@
 
         <p>Pokhara </p>
       </div>
-      <a href="url('/reservation')" ><button>Reservation</button></a>
+      <a href="{{url('/reservation')}}" ><button>Reservation</button></a>
 
     </div>
 
@@ -139,7 +168,7 @@
 
         <p>Illam</p>
       </div>
-      <a href="url('/reservation')" ><button>Reservation</button></a>
+      <a href="{{url('/reservation')}}" ><button>Reservation</button></a>
 
     </div>
   </div>
@@ -149,12 +178,12 @@
 </div>
 </section>
 
-<div class="map">
+
+<div id="map">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7029.990810664071!2d83.98180702529555!3d28.237819136874638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995945d57d28ba5%3A0xdd52869218279546!2sShree%20Bindhyabasini%20Temple!5e0!3m2!1sen!2snp!4v1653900842774!5m2!1sen!2snp"
       width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   </div>
-
 @endsection()

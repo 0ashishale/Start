@@ -5,8 +5,9 @@
 
 <section class="services ">
      
-
-   <b><a href="#" class="heading">OUR SERVICES</a> </b><br />
+<div class="heading">
+    <b ><a href="/events" style="color:white;" ><h4>SERVICES<h4></a></b>
+  </div>
 
             <div class="services-row js-scroll">
 
