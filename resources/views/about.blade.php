@@ -4,13 +4,14 @@
 @section('event')
 
 <section class="about-us">
-  <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
+  <div class="container">
     <div class="content-section">
-    <div class="heading">
-        <a href="/aboutus" style="color:white;"><h1>About Us</h1></a>
+      <div class="title">
+        <h1>About Us</h1>
       </div>
 
       <div class="content">
+        <h4 id="demo">Status : Open</h4>
         <h4>Opening Hours: 9PM-3AM</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nisi, atque sequi totam voluptas veritatis expedita dolorum praesentium ratione,
@@ -22,6 +23,7 @@
       </div>
 
     </div>
+    
 
 
   </div>
@@ -30,6 +32,7 @@
     <a href="#" style="color:white"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-instagram"> Instagram</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
+
   </div>
 
   <div class="map">
@@ -42,5 +45,7 @@
 
 
 </section>
+
+
 
 @endsection()

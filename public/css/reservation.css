@@ -6,7 +6,6 @@
 
 }
 .reservation{
-    padding-top: 5%;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/b.jpg') ;
     background-position: center;
@@ -18,7 +17,7 @@
 }
 form{
 
-    padding-top: 5%;
+    padding-top: 2%;
     width: 60%;
     height: 100%;
   align-content: center;

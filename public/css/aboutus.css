@@ -1,6 +1,7 @@
 .about-us{
-    width: 100%;
-   min-height: 100vh;
+    
+width: 100%;
+ min-height: 100vh;
   background-color:rgb(20, 35, 37);
   background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.3) ), url('/images/a.jpg') ;
   background-attachment: fixed;
@@ -10,17 +11,16 @@
 .title{
 
     
-
+    
     font-size: 5vh;
     text-decoration: underline;
     text-decoration-thickness:2px ;
-    font-family: 'Nanum Gothic Coding';
+    font-family: 'Courier New, monospace';
 
 }
 .container{
     width: 80%;
     margin: auto;
-    padding-top: 70px;
     display: block;
     color: aliceblue;
 }
@@ -28,7 +28,7 @@
 .content{
     padding-left: 15px;
     float: left;
-    width: 55%;
+    width: 50%;
     word-spacing: 3px;
 }
 
@@ -42,7 +42,7 @@
 
 
 .social{
-    width: 68%;
+    width: 60%;
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
@@ -53,7 +53,7 @@
 
 .social a{
    
-    padding: 25px;
+    padding: 15px;
     font-size: 15px;
     color: rgb(69, 109, 145);
    
@@ -62,11 +62,36 @@
 .image-section{
     float: right;
     width: 30%;
+    display: flex;
 }
 
-.image-section img{
-    width: 100%;
-    height: auto;
-    top: 0;
-   
+.image-section .address{
+    padding: 20px;
 }
+
+.address{
+    font-size: 4vh;
+    
+}
+
+.hover-text{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+   
+  }
+  .icon:hover .hover-text{
+    visibility: visible;
+  }
+
+
+
+
+ 

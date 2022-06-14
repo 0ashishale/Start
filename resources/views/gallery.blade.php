@@ -6,7 +6,9 @@
 
 <section class="gallery">
 
-        <a href="" class="heading"><h1>GALLERY</h1></a>
+  <div class="heading">
+    <b ><a href="/events" style="color:white;" ><h4>GALLERY<h4></a></b>
+  </div>
         <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
          <div class="container">
            <a href="{{ asset('images/g.jpg') }}"data-lightbox="models" data-title="caption1">

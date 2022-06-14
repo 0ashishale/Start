@@ -6,7 +6,7 @@
 
   <div class="" data-aos="zoom-in-up" data-aos-duration="1000" >
   <div class="heading">
-    <b ><a href="/branch" style="color:white;" >BRANCHES</a></b>
+    <b ><a href="/events" style="color:white;" ><h4>BRANCHES<h4></a></b>
   </div>
   <div class="branches" >
     <div class="branch1">
@@ -17,7 +17,7 @@
 
         <p>Pokhara </p>
       </div>
-      <a href="url('/reservation')" ><button>Reservation</button></a>
+      <a href="{{url('/reservation')}}" ><button>Reservation</button></a>
 
     </div>
 
@@ -31,7 +31,7 @@
         </a>
         <p>Kathmandu</p>
       </div>
-      <a href="url('/reservation')" ><button>Reservation</button></a>
+      <a href="{{url('/reservation')}}" ><button>Reservation</button></a>
 
     </div>
 
@@ -46,7 +46,7 @@
 
         <p>Illam</p>
       </div>
-      <a href="url('/reservation')" ><button>Reservation</button></a>
+      <a href="{{url('/reservation')}}" ><button>Reservation</button></a>
 
     </div>
   </div>

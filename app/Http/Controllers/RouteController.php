@@ -36,13 +36,13 @@ class RouteController extends Controller
     }
    
     function branch1(){
-        return view('branch1', ['text'=>  'Pokhara', 'title'=>'Branch 1']);
+        return view('branch1', ['text'=>  'Pokhara', 'title'=>'Pokhara Club']);
     }
     function branch2(){
-        return view('branch2', ['text'=>  'Kathmandu', 'title'=>'Branch 2']);
+        return view('branch2', ['text'=>  'Kathmandu', 'title'=>'Kathmandu Club']);
     }
     function branch3(){
-        return view('branch3', ['text'=>  'Illam', 'title'=>'Branch 1']);
+        return view('branch3', ['text'=>  'Illam', 'title'=>'Illam Club']);
     }
 
 }

@@ -6,8 +6,8 @@
 <section>
       <div class="reservation" >
       <div class="heading">
-        <b><a href="/reservation" style="color:white;">RESERVATION TABLE</a> </b>
-      </div>
+    <b ><a href="/events" style="color:white;" ><h4>RESERVATION<h4></a></b>
+  </div>
          <form>
            <div data-aos="zoom-in-up" data-aos-duration="1000">
            <div class="row1">
