@@ -4,6 +4,11 @@
 
 }
 
+.active {
+    background:#dfe0e5;
+ 
+    
+  }
 
 .hero-btn {
     
@@ -35,7 +40,7 @@
 /* -----------Header Section----------------- */
 .heading {
     padding: 3%;
-    font-size: 4vh;
+    font-size: 5vh;
     text-decoration-thickness: 3px;
     font-weight: 600px;
     color: aliceblue;
@@ -118,6 +123,11 @@
   
     
 }
+.nav-bar ul li a:is(:link, :active, :visited).ale{
+    color: #dfe0e5;
+    background-color: black;
+}
+
 .nav-bar ul li.active{
     color: rgb(179, 100, 64);
 }

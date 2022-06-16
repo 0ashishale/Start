@@ -2,7 +2,9 @@
 
 
 @section('event')
-
+<?php
+$pageTitle = 'Illam'
+?>
 <!-- --------------about us--------- -->
 <section class="about-us">
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
@@ -23,22 +25,30 @@
         <a href="{{url('/reservation')}}"><button>Reservation</button></a>
       </div>
       <div class="image-section">
-        <div class="icon">
-          <!-- <i class="fa-solid fa-location-dot" style="size:50px"></i> -->
-          <a href="#map"><img src="{{asset('images/location.png')}}" alt="Location"
-              style="height:65px; width:65px; "></a>
-          <span class="hover-text">Go to Map</span>
-        </div>
-        <div class="address">
-          <a href="#map" style="color: white; font-size :4vh; text-decoration: none;">
-            <h4>Ghattekulo</h4>
-            <p>Illam, Nepal</p>
-          </a>
-         </div>
 
+        <div class="image-content">
+          <div class="icon">
+
+            <a href="#map"><img src="{{asset('images/location.png')}}" alt="Location"
+                style="height:65px; width:65px; "></a>
+
+            <span class="hover-text">Go to Map</span>
+          </div>
+          <div class="address">
          
+              <h4>Ghattekulo</h4>
+              <p>Illam, Nepal</p>
+            
+          </div>
+
+        </div>
+
+        <a href="#map"><img id="photo" src="{{asset('/images/photo.jpg')}}"
+            style="height: 50vh; width:60vh; border-radius: 5%;" alt=""></a>
+
+
       </div>
-  
+
     </div>
 
 

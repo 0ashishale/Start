@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('event')
-
+<?php
+    $pageTitle = 'Branches'
+?>
 <section class="branch" >
 
 

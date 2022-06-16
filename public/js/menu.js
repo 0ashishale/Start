@@ -22,6 +22,16 @@ function scrollFunction() {
     }
 }
 
+// ------------active page---------
+
+const activePage = window.location.pathname;
+const mg =document.querySelectorAll('nav a').
+forEach(link=>{
+    console.log(link.href);
+    if(link.href.includes('${activePage}')){
+        console.log('${activePage}');
+    }
+})
 
 
 

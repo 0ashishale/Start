@@ -1,5 +1,8 @@
 @extends('layouts.master')
 @section('event')
+<?php
+    $pageTitle = 'Contact'
+?>
 
 <section>
   <div class="reservation " >

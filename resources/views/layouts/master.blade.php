@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Club</title>
+  <title><?php echo $pageTitle ?></title>
 
   <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
   <link rel="stylesheet" href="{{asset('css/reservation.css')}}">
@@ -37,7 +37,7 @@
   <section class="header">
 
     <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-    <div class="nav-bar" id="navLinks" >
+    <nav class="nav-bar" id="navLinks" >
       <i class="fa fa-times" onclick="hideMenu()"></i>
 
       <div class="logo">
@@ -68,7 +68,7 @@
 
 
 
-    </div>
+</nav>
 
 
 
