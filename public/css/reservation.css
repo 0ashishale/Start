@@ -119,7 +119,7 @@ button:hover{
     flex-direction: column;
     color: #fff;
 }
-.contactadd .icn{
+.bcontact .icn{
     align-items: center;
     background: transparent;
     border-radius: 50%;
@@ -130,16 +130,26 @@ button:hover{
     
 
 }
-.contactadd a:hover{
-    font-size: 24px;
-    color: yellowgreen;
-}
-.contactadd .bcontact{
+
+.bcontact{
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+   justify-content: center;
+    
+    
+
 }
-.contactadd .bcontact a{
-    display: flex;
-    flex-direction: column;
+
+
+.bcontact a{
+    padding: 5%;
+    text-decoration: none;
+    color: #fff;
+ 
+ }
+.bcontact a:hover{
+    font-size: 18px;
+    color: yellowgreen;
 }
+
