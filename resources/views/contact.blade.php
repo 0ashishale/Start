@@ -7,11 +7,11 @@
 <section>
   <div class="reservation " >
   <div class="heading">
-        <b><a href="/contact" style="color:white;">contact us</a> </b>
+        <b><a href="/contact" style="color:white;">Contact Us</a> </b>
    </div>
       <div class="contactadd" data-aos="zoom-in-up" data-aos-duration="1000">
-        <p>An establishment for evening entertainment, <br> generally open until the early morning, <br> that serves liquor and usually food and offers patrons music, <br> comedy acts, a floor show, or dancing. <br>
-          Feel free to contact us for your night, <br> It will surely be your loved moment.
+        <p>An establishment for evening entertainment,  generally open until the early morning,that serves liquor and usually food and offers patrons music, comedy acts, a floor show, or dancing. 
+          Feel free to contact us for your night, It will surely be your loved moment.
         </p><br>
         </div>
       <div class="bcontact" data-aos="zoom-in-up" data-aos-duration="1000"> 

@@ -101,7 +101,7 @@ button:hover{
     background-size: cover;
     text-align: center;
     flex-direction: column;
-   justify-content: space-between;
+   
     
     
     
@@ -112,6 +112,8 @@ button:hover{
     color: rgb(250, 248, 250);
     font-size: 20px;
     font-display: flex;
+    width: 60%;
+   margin: auto;
    
 }
 .contactadd a{
@@ -144,7 +146,7 @@ button:hover{
 
 
 .bcontact a{
-    padding: 5%;
+    padding: 2%;
     text-decoration: none;
     color: #fff;
  
