@@ -22,6 +22,7 @@ form{
     height: 100%;
   align-content: center;
   margin-left: 300px;
+  
 
 
 
@@ -99,6 +100,7 @@ button:hover{
     background-size: cover;
     text-align: center;
     flex-direction: column;
+   justify-content: space-between;
     
     
     
@@ -109,11 +111,35 @@ button:hover{
     color: rgb(250, 248, 250);
     font-size: 20px;
     font-display: flex;
-    space
    
 }
 .contactadd a{
-    font-size: 24px;
+    font-size: 20px;
     font-display: flex;
+    flex-direction: column;
     color: #fff;
+}
+.contactadd .icn{
+    align-items: center;
+    background: transparent;
+    border-radius: 50%;
+
+    
+    font-size: 30px;
+    
+    
+
+}
+.contactadd a:hover{
+    font-size: 24px;
+    color: yellowgreen;
+}
+.contactadd .bcontact{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contactadd .bcontact a{
+    display: flex;
+    flex-direction: column;
 }

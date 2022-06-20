@@ -6,14 +6,16 @@
   <div class="heading">
         <b><a href="/contact" style="color:white;">contact us</a> </b>
    </div>
-      <div class="contactadd" data-aos="fade-in-up" data-aos-duration="1000">
+      <div class="contactadd" data-aos="zoom-in-up" data-aos-duration="1000">
         <p>An establishment for evening entertainment, <br> generally open until the early morning, <br> that serves liquor and usually food and offers patrons music, <br> comedy acts, a floor show, or dancing. <br>
           Feel free to contact us for your night, <br> It will surely be your loved moment.
-        </p>
+        </p><br><br><br>
 
-      <a href="#" ><i class="fa fa-map-marker" ></i> Address: <br> <p>Pokhara,Nepal</p> </a> &nbsp;
-      <a href="#" ><i class="fa fa-envelope" ></i>Email: <br><p>ra01@gmail.com</p></a> &nbsp; 
-      <a href="#" ><i class="fa fa-phone-square"></i>Phone No: <br><p>1234567789</p></a>
+      <div class="bcontact"> 
+      <a href="#"  > <div class="icn"><i  class="fa fa-map-marker" ></i></div> Address: <br> <p>Pokhara,Nepal</p> </a> &nbsp;
+      <a href="#"  > <div class="icn"><i  class="fa fa-envelope" ></i></div> Email: <br><p>ra01@gmail.com</p></a> &nbsp; 
+      <a href="#"  > <div class="icn"><i  class="fa fa-phone-square"></i></div> Phone No: <br><p>1234567789</p></a>
+      </div>
       </div>
      <div class="heading">
         <b><a href="/contact" style="color:white;">Feel Free To Contact Us</a> </b>
