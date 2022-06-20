@@ -3,7 +3,9 @@
 
 @section('event')
 
-
+<?php
+    $pageTitle = 'Gallery'
+?>
 <section class="gallery">
 
   <div class="heading">

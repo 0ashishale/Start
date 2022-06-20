@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('event')
-
+<?php
+    $pageTitle = 'Club'
+?>
 
 
 <!-- ---------branch section--------- -->
@@ -60,6 +62,7 @@
 
   </div>
 </section>
+
 
 
 
@@ -153,10 +156,11 @@
 <!-- -------------Gallery Section--------- -->
 <section class="gallery">
   <div class="heading">
-    <b><a href="/events" style="color:white;">
-        <h4>GALLERY<h4>
-      </a></b>
-  </div>
+  <div class="heading">
+      <b><a href="/events" style="color:white;">
+          <h4>GALLERY<h4>
+        </a></b>
+    </div>
   <div class="photos" data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="container">
       <a href="{{ asset('images/g.jpg') }}" data-lightbox="models" data-title="caption1">
@@ -202,7 +206,7 @@
 <!---reservation table-->
 <section>
   <div class="reservation">
-    <div class="heading">
+  <div class="heading">
       <b><a href="/events" style="color:white;">
           <h4>RESERVATION<h4>
         </a></b>
@@ -259,8 +263,10 @@
   <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
     <div class="heading">
-        <a href="/aboutus" style="color:white;"><h1>About Us</h1></a>
-      </div>
+      <b><a href="/events" style="color:white;">
+          <h4>ABOUT US<h4>
+        </a></b>
+    </div>
 
 
 
@@ -275,11 +281,7 @@
       </div>
       <div class="image-section">
         <img src="{{asset('images/logo.png')}}" style="height:70%; width:70%" alt="">
-        <div class="address">
-          <h1> Pokhara Club</h1>  
-          <h4>LakeSide</h4>
-          <p>Pokhara, Nepal</p>
-        </div>
+       
       </div>
 
     </div>

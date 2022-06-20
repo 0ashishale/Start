@@ -2,7 +2,9 @@
 @section('event')
 
 
-
+<?php
+    $pageTitle = 'Services'
+?>
 <section class="services ">
      
 <div class="heading">

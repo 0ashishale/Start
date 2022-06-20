@@ -2,27 +2,41 @@
 
 
 @section('event')
+<?php
+    $pageTitle = 'About'
+?>
+
 
 <section class="about-us">
-  <div class="container">
+  <div class="container " data-aos="zoom-in-up" data-aos-duration="1000">
     <div class="content-section">
-      <div class="title">
-        <h1>About Us</h1>
+      <div class="heading" style=" font-family: Nanum Gothic Coding;">
+        <h3>About Us </h3>
       </div>
 
+
+
       <div class="content">
-        <h4 id="demo">Status : Open</h4>
+        <h4>Status : Open</h4>
         <h4>Opening Hours: 9PM-3AM</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nisi, atque sequi totam voluptas veritatis expedita dolorum praesentium ratione,
           accusamus id ad fugit, deserunt accusantium incidunt nam delectus labore qui perferendis!</p>
+
         <a href="{{url('/reservation')}}"><button>Reservation</button></a>
       </div>
       <div class="image-section">
-        <img src="{{asset('images/logo.png')}}" alt="">
+
+       
+
+        <a href="#map"><img id="photo" src="{{asset('/images/logo.png')}}"
+            style="height: 50vh; width:60vh; border-radius: 5%;" alt=""></a>
+
+
       </div>
 
     </div>
+
     
 
 
@@ -32,8 +46,8 @@
     <a href="#" style="color:white"><i class="fa-brands fa-facebook-f"> Facebook</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-instagram"> Instagram</i></a>
     <a href="#" style="color:white"><i class="fa-brands fa-twitter"> Twitter </i></a>
+ </div>
 
-  </div>
 
   <div class="map">
     <iframe
@@ -43,9 +57,6 @@
 
   </div>
 
-
 </section>
-
-
 
 @endsection()

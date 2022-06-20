@@ -1,7 +1,9 @@
 @extends('layouts.master')
 
 @section('event')
-
+<?php
+    $pageTitle = 'Events'
+?>
 
 
 <section class="book-table">
