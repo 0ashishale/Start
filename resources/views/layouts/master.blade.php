@@ -46,7 +46,7 @@
       </div>
       <ul>
 
-        <li><a href="/"><i class="fa fa-home"></i>
+        <li><a href="/" class="nav-active"><i class="fa fa-home"></i>
             Home</a></li>
 
         <li><a href="/branches"><i class="fa fa-link"></i></i>

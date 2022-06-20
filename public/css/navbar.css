@@ -4,11 +4,7 @@
 
 }
 
-.active {
-    background:#dfe0e5;
- 
-    
-  }
+
 
 .hero-btn {
     
@@ -105,6 +101,7 @@
 
 }
 
+
 .nav-bar ul li {
     list-style: none;
     display: inline-block;
@@ -123,13 +120,15 @@
   
     
 }
-.nav-bar ul li a:is(:link, :active, :visited).ale{
-    color: #dfe0e5;
-    background-color: black;
-}
 
-.nav-bar ul li.active{
+
+/* .nav-bar ul li.nav-active{
     color: rgb(179, 100, 64);
+} */
+.nav-bar ul li.active a, .nav-bar ul li a:hover {
+ 
+    color:rgb(56, 165, 129);
+   
 }
 
 .nav-bar ul li::after {
