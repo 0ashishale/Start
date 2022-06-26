@@ -7,10 +7,12 @@ function showMenu() {
 function hideMenu() {
     navLinks.style.right = "-200px";
 }
+
+// ----------change navbar size--------------
 window.onscroll = function () {
     scrollFunction();
 };
-// ----------change navbar size--------------
+
 function scrollFunction() {
     if (
         document.body.scrollTop > 50 ||
@@ -22,17 +24,7 @@ function scrollFunction() {
     }
 }
 
-// ------------active page---------
 
-// const activePage = window.location.pathname;
-// const mg =document.querySelectorAll('nav a').
-// forEach(link=>{
-//     console.log(link.href);
-//     if(link.href.includes('${activePage}')){
-//         console.log('${activePage}');
-//     }
-// })
-// console.log(activePage);
 $(function() {
     // this will get the full URL at the address bar
     var url = window.location.href;
@@ -42,8 +34,7 @@ $(function() {
         // checks if its the same on the address bar
         if (url == (this.href)) {
             $(this).closest("li").addClass("active");
-            //for making parent of submenu active
-           $(this).closest("li").parent().parent().addClass("active");
+      
         }
     });
 }); 

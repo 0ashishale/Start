@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('frontend.layouts.main.master')
 
 
 @section('event')
