@@ -7,22 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $pageTitle ?></title>
 
-  <link rel="stylesheet" href="{{asset('css/navbar.css')}}">
-  <link rel="stylesheet" href="{{asset('css/reservation.css')}}">
-  <link rel="stylesheet" href="{{asset('css/logo.css')}}">
-  <link rel="stylesheet" href="{{asset('css/footer.css')}}">
-  <link rel="stylesheet" href="{{asset('css/branch.css')}}">
-  <link rel="stylesheet" href="{{asset('css/booktable.css')}}">
-  <link rel="stylesheet" href="{{asset('css/content.css')}}">
-  <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
-  <link rel="stylesheet" href="{{asset('css/service.css')}}">
-  <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
-  
+
+
+  <link rel="stylesheet" href="{{asset('css/frontcss/navbar.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/reservation.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/logo.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/footer.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/branch.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/booktable.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/content.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/gallery.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/service.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/aboutus.css')}}">
 
   <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="{{asset('css/lightbox.css')}}">
+  <link rel="stylesheet" href="{{asset('css/frontcss/lightbox.css')}}">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   
@@ -37,9 +38,9 @@
  
   <section class="header">
 
-    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+ 
     <nav class="nav-bar" id="navLinks" >
-      <i class="fa fa-times" onclick="hideMenu()"></i>
+      
 
       <div class="logo">
         <img src="{{asset('images/logo.png')}}" alt="" width="130" height="60">
@@ -50,9 +51,13 @@
         <li><a href="/" class="nav-active"><i class="fa fa-home"></i>
             Home</a></li>
 
-        <li><a href="/branches"><i class="fa fa-link"></i></i>
+        <li><a href="/branches"><i class="fa fa-link"></i>
             Branches</a></li>
 
+        <li class="subnav"><a href="/branches"><i class="fa fa-link"></i>
+            Branches </i></a>
+          </li>
+       
         
         <li><a href="/services"><i class="fa fa-server"></i>
             Services</a></li>
@@ -64,12 +69,27 @@
         <li><a href="/about"><i class="fa fa-grav"></i> About Us</a> </li>
 
         <li><a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us</a></li>
-        <li style="border:0.5px solid white; padding:3px 5px;" ><a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
+        <li style="border:0.5px solid white; padding:3px 5px;" >
+          <a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
       </ul>
 
 
 
 </nav>
+
+
+
+  <a href="/services"><i class="fa fa-server"></i> Services</a>
+  <a href="/gallery"><i class="fa fa-film"></i> Gallery </a>
+  <a href="/events"><i class="fa fa-calendar"></i> Events </a>
+  <a href="/about"><i class="fa fa-grav"></i> About Us </a>
+  <a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us </a>
+  <a href="/reservation"><i class="fa fa-paper-plane "></i> Reservation</a>
+  
+
+</div>
+
+
 
 
 
@@ -124,14 +144,18 @@ function startTime() {
   setTimeout(startTime, 1000);
 }
 
+
 function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
 </script>
-  </script>
-  <script src="{{asset('js/lightbox-plus-jquery.js')}}"></script>
-<script src="{{asset('js/menu.js')}}"> </script>
+
+ 
+
+  <script src="{{asset('js/frontjs/lightbox-plus-jquery.js')}}"></script>
+<script src="{{asset('js/frontjs/menu.js')}}"> </script>
+
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
