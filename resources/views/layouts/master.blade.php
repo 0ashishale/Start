@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="{{asset('css/gallery.css')}}">
   <link rel="stylesheet" href="{{asset('css/service.css')}}">
   <link rel="stylesheet" href="{{asset('css/aboutus.css')}}">
+  
 
   <link href='https://fonts.googleapis.com/css?family=Nanum Gothic Coding' rel='stylesheet'>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -27,7 +28,7 @@
   
 </head>
 
-<body>
+<body  onload="startTime()">
 
 
 
@@ -73,10 +74,9 @@
 
 
   </section>
+  
 
-
-
-  <section>
+  <section >
 
 
     <div class="text-box" data-aos="zoon-in" data-aos-duration="1000">
@@ -84,7 +84,10 @@
 
       <p>{{$text}}</p>
       <h1>{{$title}}</h1>
-
+       <div>
+         <h2 id="time"></h2>
+         <p>lost time is  never fount again</p>
+         </div>
 
     </div>
   </section>
@@ -109,7 +112,24 @@
   </section>
 
 
+  <script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('time').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
 
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+  </script>
   <script src="{{asset('js/lightbox-plus-jquery.js')}}"></script>
 <script src="{{asset('js/menu.js')}}"> </script>
 <script src="https://kit.fontawesome.com/77454ad617.js" crossorigin="anonymous"></script>
