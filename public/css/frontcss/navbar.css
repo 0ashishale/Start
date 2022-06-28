@@ -96,17 +96,18 @@
 
 
  .nav-bar {
-    overflow: hidden;
+    
     position: fixed;
     width: 100%;
     background-color: rgb(20, 11, 49, 0.8);
     padding: 20px;
     justify-content: space-between;
-    overflow: auto;
     text-align: right;
     z-index: 50;
     right: 0;
     transition: 0.4s;
+    
+    
 
 
 }
@@ -204,5 +205,36 @@
     .nav-bar li a i.fa {
         display: none;
     }
-}   
+} 
+  .dropdown{
+    display: none;
+    float: left;
+    text-decoration: none;
+    color: rgb(225, 233, 241);
+    text-transform: uppercase;
+  }
+  .nav-bar ul li:hover  .dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -15px;
+    background-color: rgb(20, 11, 49, 0.8);
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    
+
+
+  }
+  .nav-bar ul li:hover  .dropdown ul{
+    display: block;
+    margin-inline: 12px;
+    
+   
+    
+    
+
+  }
+
 

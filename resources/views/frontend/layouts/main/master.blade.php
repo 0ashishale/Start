@@ -48,29 +48,27 @@
       </div>
       <ul>
 
-        <li><a href="/" class="nav-active"><i class="fa fa-home"></i>
-            Home</a></li>
+        <li><a href="/" class="nav-active"><i class="fa fa-home"></i>Home</a></li>
 
-        <li><a href="/branches"><i class="fa fa-link"></i>
-            Branches</a></li>
-
-        <li class="subnav"><a href="/branches"><i class="fa fa-link"></i>
-            Branches </i></a>
-          </li>
-       
+        <li><a href="/branches"><i class="fa fa-link"></i>Branches<i class="fa fa-angle-double-down"></i></a>
+            <ul>
+              <div class="dropdown">
+              <li><a href="" class="nav-active" style="color:white"><i class="fa fa-link"></i>Pokhara</a></li><br> <br>
+              <li><a href="/" class="nav-active" style="color:white"><i  class="fa fa-link"></i>Kathmandu</a></li><br><br>
+              <li><a href="/" class="nav-active" style="color:white"><i  class="fa fa-link"></i>Ilam </a></li>
+              </div>
+            </ul>
+        </li>
         
-        <li><a href="/services"><i class="fa fa-server"></i>
-            Services</a></li>
-        <li><a href="/gallery"><i class="fa fa-film"></i>
-            Gallery</a></li>
-        <li><a href="/events"><i class="fa fa-calendar"></i>
-            Events</a></li>
+        <li><a href="/services"><i class="fa fa-server"></i>Services</a></li>
+        <li><a href="/gallery"><i class="fa fa-film"></i>Gallery</a></li>
+        <li><a href="/events"><i class="fa fa-calendar"></i>Events</a></li>
         
-        <li><a href="/about"><i class="fa fa-grav"></i> About Us</a> </li>
+        <li><a href="/about"><i class="fa fa-grav"></i>About Us</a> </li>
 
-        <li><a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us</a></li>
+        <li><a href="/contact"><i class="fa fa-handshake-o"></i>Contact Us</a></li>
         <li style="border:0.5px solid white; padding:3px 5px;" >
-          <a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
+          <a href="/reservation" ><i class="fa fa-paper-plane "></i>Reservation</a></li>
       </ul>
 
 
