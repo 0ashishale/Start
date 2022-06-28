@@ -77,16 +77,6 @@
 
 </nav>
 
-
-
-  <a href="/services"><i class="fa fa-server"></i> Services</a>
-  <a href="/gallery"><i class="fa fa-film"></i> Gallery </a>
-  <a href="/events"><i class="fa fa-calendar"></i> Events </a>
-  <a href="/about"><i class="fa fa-grav"></i> About Us </a>
-  <a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us </a>
-  <a href="/reservation"><i class="fa fa-paper-plane "></i> Reservation</a>
-  
-
 </div>
 
 
