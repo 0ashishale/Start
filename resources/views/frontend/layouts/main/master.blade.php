@@ -50,7 +50,7 @@
 
         <li><a href="/" class="nav-active"><i class="fa fa-home"></i>Home</a></li>
 
-        <li><a href="/branches"><i class="fa fa-link"></i>Branches<i class="fa fa-angle-double-down"></i></a>
+        <li><a href="/branches"><i class="fa fa-link"></i>Branches<i></i></a>
             <ul>
               <div class="dropdown">
               <li><a href="" class="nav-active" style="color:white"><i class="fa fa-link"></i>Pokhara</a></li><br> <br>
