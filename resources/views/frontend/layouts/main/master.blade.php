@@ -52,9 +52,9 @@
         <li><a href="/" class="nav-active"><i class="fa fa-home"></i> Home</a></li>
 
 
-        <li id="branches"><a href="/branches"><i class="fa fa-link"></i> Branches<i></i></a>
+        <li id="branches" style="cursor: pointer"><a ><i class="fa fa-link"></i> Branches<i></i></a>
             <ul>
-              <div class="dropdown">
+              <div class="dropdown" >
               <li><a href="/branches/branch1" class="nav-active" style="color:white"> Pokhara</a></li><br> <br>
               <li><a href="/branches/branch2" class="nav-active" style="color:white"> Kathmandu</a></li><br><br>
               <li><a href="/branches/branch3" class="nav-active" style="color:white"> Ilam </a></li>

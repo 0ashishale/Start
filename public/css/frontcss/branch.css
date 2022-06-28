@@ -11,6 +11,7 @@
   font-family: 'Nanum Gothic Coding';
   padding-bottom: 3%;
   
+  
 
  
 
@@ -18,11 +19,11 @@
 
 .branches
 {
-padding: 4%;
+padding: 0 10%;
 text-align: center;
 display: -webkit-flex;
-margin: auto;
-justify-content: space-evenly;
+
+justify-content: center;
 
 }
 
@@ -30,13 +31,15 @@ justify-content: space-evenly;
   .branches{
     display: block;
     margin: auto;
-    padding: 10%;
-    justify-content: space-between;
+    text-align: center;
 
     
   }
   .branch1, .branch2, .branch3{
-    margin: 5%;
+    margin: 3%;
+    justify-content: center;
+
+
   }
 }
 
@@ -62,7 +65,7 @@ justify-content: space-evenly;
 
 
 .text p{
-  padding: 30%;
+  padding: 30% 0 30% 0;
  
 }
 
@@ -74,26 +77,29 @@ justify-content: space-evenly;
 
 
 .branch1{
+  margin: 5%;
   background-image: url("/images/2.webp");
   border-radius: 20px;
-  min-height: 67vh;
-  width: 50vh;
+  height: 55vh;
+  width: 40vh;
 
 
 }
 
 .branch2{
+  margin: 5%;
   background-image: url("/images/5.jpeg");
   border-radius: 20px;
-  min-height: 67vh;
-  width: 50vh;
+  height: 55vh;
+  width: 40vh;
 }
 
 .branch3{
+  margin: 5%;
   background-image: url("/images/3.webp");
-  min-height: 67vh;
+  height: 55vh;
   border-radius: 20px;
-  width: 50vh;
+  width: 40vh;
 }
 
 /* -----------branch page----------- */

@@ -211,7 +211,7 @@
           <h4>RESERVATION<h4>
         </a></b>
     </div>
-    <form>
+    {{-- <form>
       <div data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="row1">
           <div class="input-group">
@@ -252,7 +252,7 @@
                 <input type="radio" name="branch"><h3>Baglung</h3> <br><br>
               </div>-->
       </div>
-    </form>
+    </form> --}}
   </div>
 </section>
 

@@ -21,8 +21,9 @@ form{
     padding-top: 2%;
     width: 60%;
     height: 100%;
-  align-content: center;
-  margin-left: 300px;
+  
+  justify-content: center;
+  margin-left: 5%;
   
 
 

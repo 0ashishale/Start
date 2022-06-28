@@ -38,7 +38,7 @@
 .heading {
     padding: 3%;
 
-    font-size: 6vh;
+    font-size: 5vh;
 
 
 
@@ -141,6 +141,7 @@
     text-decoration: none;
     color: rgb(225, 233, 241);
     text-transform: uppercase;
+    
 }
 .nav-bar ul li a:active {
     color: rgb(158, 240, 76);
@@ -186,9 +187,11 @@
 }
 
 @media screen and (max-width: 700px) {
+    .header{
+        width: 100%;
+    }
     #navLinks {
         right: -200px;
-        position: absolute;
         height: 100vh;
         width: 150px;
         text-align: left;
@@ -221,26 +224,37 @@
     .nav-bar li a i.fa {
         display: none;
     }
- 
-.dropdown li a{
-  position: relative;
-}
 
-} 
+
+
+ 
+
+ 
+    
+
+}
+ 
+
+
+
 
 
 .dropdown{
+    overflow: hidden;
     display: none;
     float: left;
     text-decoration: none;
     color: rgb(225, 233, 241);
     text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+
   }
+
   #branches:hover  .dropdown{
+    overflow: hidden;
     display: block;
-    position: absolute;
     margin-top: 3px;
-    margin-left: -15px;
     background-color: rgb(20, 11, 49, 0.8);
     background-size: cover;
     padding: 20px;
@@ -250,6 +264,8 @@
 
 
   }
+
+
 
 
 
