@@ -38,8 +38,9 @@
  
   <section class="header">
 
- 
+   <i class="fa-solid fa-bars"  onclick="showMenu()" ></i>
     <nav class="nav-bar" id="navLinks" >
+      <i class="fa fa-times" onclick="hideMenu()" ></i>
       
 
       <div class="logo">
@@ -48,43 +49,44 @@
       </div>
       <ul>
 
-        <li><a href="/" class="nav-active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="/" class="nav-active"><i class="fa fa-home"></i> Home</a></li>
 
-        <li><a href="/branches"><i class="fa fa-link"></i>Branches<i></i></a>
+
+        <li id="branches"><a href="/branches"><i class="fa fa-link"></i> Branches<i></i></a>
             <ul>
               <div class="dropdown">
-              <li><a href="" class="nav-active" style="color:white"><i class="fa fa-link"></i>Pokhara</a></li><br> <br>
-              <li><a href="/" class="nav-active" style="color:white"><i  class="fa fa-link"></i>Kathmandu</a></li><br><br>
-              <li><a href="/" class="nav-active" style="color:white"><i  class="fa fa-link"></i>Ilam </a></li>
+              <li><a href="/branches/branch1" class="nav-active" style="color:white"> Pokhara</a></li><br> <br>
+              <li><a href="/branches/branch2" class="nav-active" style="color:white"> Kathmandu</a></li><br><br>
+              <li><a href="/branches/branch3" class="nav-active" style="color:white"> Ilam </a></li>
               </div>
             </ul>
         </li>
-        
-        <li><a href="/services"><i class="fa fa-server"></i>Services</a></li>
-        <li><a href="/gallery"><i class="fa fa-film"></i>Gallery</a></li>
-        <li><a href="/events"><i class="fa fa-calendar"></i>Events</a></li>
-        
-        <li><a href="/about"><i class="fa fa-grav"></i>About Us</a> </li>
 
-        <li><a href="/contact"><i class="fa fa-handshake-o"></i>Contact Us</a></li>
+        
+        <li><a href="/services"><i class="fa fa-server"></i> Services</a></li>
+        <li><a href="/gallery"><i class="fa fa-film"></i> Gallery</a></li>
+        <li><a href="/events"><i class="fa fa-calendar"></i> Events</a></li>
+        
+        <li><a href="/about"><i class="fa fa-grav"></i> About Us</a> </li>
+
+        <li><a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us</a></li>
         <li style="border:0.5px solid white; padding:3px 5px;" >
-          <a href="/reservation" ><i class="fa fa-paper-plane "></i>Reservation</a></li>
+          <a href="/reservation" ><i class="fa fa-paper-plane "></i> Reservation</a></li>
       </ul>
 
 
 
 </nav>
-
-</div>
-
-
-
-
-
-  </section>
+ </section>
   
 
-  <section >
+
+
+
+
+{{-- ----------dynamic content---- --}}
+  <section>
+
 
 
     <div class="text-box" data-aos="zoon-in" data-aos-duration="1000">

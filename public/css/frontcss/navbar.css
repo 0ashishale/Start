@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -47,51 +48,64 @@
     text-align: center;
    
 }
+
 .header {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(15, 14, 14, 0.7)),
-        url("/images/background.jpg");
+    background-image: linear-gradient(rgba(2, 2, 2, 0.7), rgba(15, 14, 14, 0.7));
+   
 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     background-attachment: fixed;
-    transition: 20s;
-    
-    animation-name: ak;
-    animation-direction: alternate-reverse ;
-    animation-duration: 25s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    animation-timing-function: ease-in-out;
-    backface-visibility: hidden; 
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility:    hidden;
-    -ms-backface-visibility:     hidden;
+    animation: ak 50s linear infinite;
+ 
   
     
 }
 
 @keyframes ak{
-    0%{
-        background-image: url("/images/1.png");
-    }
-    20%{
-        background-image: url("/images/2.webp");
-    }
-    40%{
-        background-image: url("/images/3.webp");
-    }
-    60%{
-        background-image: url("/images/4.webp");
-    }
-    80%{
-        background-image: url("/images/5.jpeg");
-    }
+   0% {
+      background-image: url('/images/2.webp');
+  }
+  15% {
+   
+      background-image: url('/images/3.webp');
+  }
+  30% {
+    
+      background-image: url('/images/4.webp');
+  }
+  45% {
+   
+      background-image: url('/images/5.jpeg');
+  }
+  60% {
+      
+      background-image: url('/images/a.jpg');
+  }
+  75% {
+      
+      background-image: url('/images/b.jpg');
+
+  }
+  90% {
+     
+      background-image: url('/images/c.jpg');
+
+  }
+  95% {
+    
+      background-image: url('/images/d.jpg');
+
+  }
+  100% {
+     
+      background-image: url('/images/e.jpg');
+
+  }
 }
 
 
@@ -186,6 +200,8 @@
     .nav-bar li {
         padding: 10px;
         justify-content: space-around;
+
+        position: relative;
     }
     .header .fa-solid {
         display: block;
@@ -205,18 +221,25 @@
     .nav-bar li a i.fa {
         display: none;
     }
+ 
+.dropdown li a{
+  position: relative;
+}
+
 } 
-  .dropdown{
+
+
+.dropdown{
     display: none;
     float: left;
     text-decoration: none;
     color: rgb(225, 233, 241);
     text-transform: uppercase;
   }
-  .nav-bar ul li:hover  .dropdown{
+  #branches:hover  .dropdown{
     display: block;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: -15px;
     background-color: rgb(20, 11, 49, 0.8);
     background-size: cover;
@@ -227,14 +250,6 @@
 
 
   }
-  .nav-bar ul li:hover  .dropdown ul{
-    display: block;
-    margin-inline: 12px;
-    
-   
-    
-    
 
-  }
 
 
