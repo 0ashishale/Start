@@ -51,10 +51,6 @@
 
         <li><a href="/branches"><i class="fa fa-link"></i>
             Branches</a></li>
-
-        <li class="subnav"><a href="/branches"><i class="fa fa-link"></i>
-            Branches </i></a>
-          </li>
        
         
         <li><a href="/services"><i class="fa fa-server"></i>
@@ -76,25 +72,10 @@
 </nav>
 
 
-
-  <a href="/services"><i class="fa fa-server"></i> Services</a>
-  <a href="/gallery"><i class="fa fa-film"></i> Gallery </a>
-  <a href="/events"><i class="fa fa-calendar"></i> Events </a>
-  <a href="/about"><i class="fa fa-grav"></i> About Us </a>
-  <a href="/contact"><i class="fa fa-handshake-o"></i> Contact Us </a>
-  <a href="/reservation"><i class="fa fa-paper-plane "></i> Reservation</a>
-  
-
-</div>
-
-
-
-
-
   </section>
 
 
-
+{{-- ----------dynamic content---- --}}
   <section>
 
 
