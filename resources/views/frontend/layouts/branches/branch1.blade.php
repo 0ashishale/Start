@@ -29,7 +29,7 @@
         <div class="image-content">
           <div class="icon">
 
-            <a href="#map"><img src="{{asset('images/location.png')}}" alt="Location"
+            <a href="#map"><img  src="{{asset('images/location.png')}}" alt="Location"
                 style="height:65px; width:65px; "></a>
 
             <span class="hover-text">Go to Map</span>

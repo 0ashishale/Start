@@ -36,8 +36,9 @@
  
   <section class="header">
 
- 
+   <i class="fa-solid fa-bars"  onclick="showMenu()" ></i>
     <nav class="nav-bar" id="navLinks" >
+      <i class="fa fa-times" onclick="hideMenu()" ></i>
       
 
       <div class="logo">
